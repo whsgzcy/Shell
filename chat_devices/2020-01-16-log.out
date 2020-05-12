@@ -1,0 +1,2535 @@
+--->*10.109.1.1* will start check
+
+#check_df: 100 session
+/system                991.9M   830.1M   161.8M   4096
+
+#over_df:100 session
+
+#check_df: 101 session
+/dev                     1.9G    28.0K     1.9G   4096
+
+#over_df:101 session
+
+#check_df: 102 session
+/dev/graphics/fb0        1.9G    36.0K     1.9G   4096
+
+#over_df:102 session
+
+#check_df: 103 session
+/data                   27.2G     9.6G    17.6G   4096
+
+#over_df:103 session
+
+#check_df: 104 session
+/                        1.9G     2.8M     1.9G   4096
+
+#over_df:104 session
+
+#check_df: 105 session
+/sys/fs/cgroup           1.9G     0.0K     1.9G   4096
+
+#over_df:105 session
+
+#check_df: 106 session
+/mnt                     1.9G     0.0K     1.9G   4096
+
+#over_df:106 session
+
+#check_df: 107 session
+/subin                   1.9G   160.0K     1.9G   4096
+
+#over_df:107 session
+
+#check_df: 108 session
+/storage                 1.9G     0.0K     1.9G   4096
+
+#over_df:108 session
+
+#check_df: 109 session
+/mnt/runtime/default/emulated    27.2G     9.6G    17.6G   4096
+
+#over_df:109 session
+
+#check_df: 110 session
+/storage/emulated       27.2G     9.6G    17.6G   4096
+
+#over_df:110 session
+
+#check_df: 111 session
+/mnt/runtime/read/emulated    27.2G     9.6G    17.6G   4096
+
+#over_df:111 session
+
+#check_df: 112 session
+/mnt/runtime/write/emulated    27.2G     9.6G    17.6G   4096
+
+#over_df:112 session
+
+#check_df: 113 session
+/data/nfs             1426.6G    37.2G  1389.4G   1048576
+
+#over_df:113 session
+
+#check_battery: 2 session
+Current Battery Service state:
+  AC powered: true
+  USB powered: true
+  Wireless powered: false
+  Max charging current: 0
+  status: 3
+  health: 2
+  present: true
+  level: 100
+  scale: 100
+  voltage: 3
+  temperature: 26
+  technology: Li-ion
+
+#over_battery:2 session
+
+#check_cpu: 3 session
+attribute:1416000
+temperatue:31111
+
+#over_cpu:3 session
+
+#check_internet: 4 session
+realm_name:yes
+online:yes
+
+#over_internet:4 session
+
+#check_cpu_mem: 5 session
+Mem: 2071540K used, 1870236K free, 6156K shrd, 84568K buff, 1384700K cached
+CPU:  0.0% usr  0.0% sys  0.0% nic  100% idle  0.0% io  0.0% irq  0.0% sirq
+Load average: 1.00 1.01 1.00 1/702 14245
+  PID  PPID USER     STAT   VSZ %VSZ CPU %CPU COMMAND
+  550   210 system   S <  2346m 60.9   4  0.0 system_server
+ 1147   210 system   S    2057m 53.4   5  0.0 {migu.controller} com.migu.controller
+  210     1 root     S    2035m 52.8   5  0.0 {main} zygote64
+  948   210 u0_a8    S    1766m 45.8   0  0.0 {ndroid.launcher} com.android.launcher
+  768   210 u0_a17   S    1739m 45.1   3  0.0 {ndroid.systemui} com.android.systemui
+ 1368   210 u0_a29   S    1555m 40.4   4  0.0 {m.android.email} com.android.email
+  930   210 radio    S    1551m 40.2   5  0.0 {m.android.phone} com.android.phone
+ 1142   210 system   S    1546m 40.1   2  0.0 com.migu.agent
+ 1394   210 u0_a49   S    1545m 40.1   4  0.0 {droid.messaging} com.android.messaging
+ 1344   210 u0_a23   S    1543m 40.0   4  0.0 {ndroid.calendar} com.android.calendar
+ 1089   210 u0_a27   S    1540m 40.0   5  0.0 {droid.deskclock} com.android.deskclock
+  785   210 u0_a2    S    1537m 39.9   4  0.0 {d.process.acore} android.process.acore
+28338   210 u0_a6    S    1535m 39.8   2  0.0 {d.process.media} android.process.media
+  972   210 u0_a44   S    1533m 39.8   1  0.0 {id.printspooler} com.android.printspooler
+ 1264   210 u0_a1    S    1532m 39.8   4  0.0 {viders.calendar} com.android.providers.calendar
+ 1499   210 u0_a10   S    1529m 39.7   4  0.0 {android.musicfx} com.android.musicfx
+ 1067   210 u0_a48   S    1529m 39.7   4  0.0 {android.smspush} com.android.smspush
+  211     1 root     S    1487m 38.6   4  0.0 {main} zygote
+  908   211 u0_a15   S    1130m 29.3   5  0.0 {method.sogouoem} com.sohu.inputmethod.sogouoem
+ 1750   211 u0_a15   S    1020m 26.5   0  0.0 {em:push_service} com.sohu.inputmethod.sogouoem:push_service
+ 1999   211 u0_a15   S    1017m 26.4   5  0.0 {ogouoem:classic} com.sohu.inputmethod.sogouoem:classic
+  192     1 system   S <   296m  7.7   4  0.0 /system/bin/surfaceflinger
+  200     1 media    S    58056  1.4   5  0.0 /system/bin/mediaserver
+  195     1 root     S    19060  0.4   4  0.0 /system/bin/netd
+  180     1 root     S    15684  0.4   5  0.0 /system/bin/vold --blkid_context=u:r:blkid:s0 --blkid_untrusted_context=u:r:blkid_untrusted:s0 --fsck_context=u:r:fsck:s0 --fsck_untrusted_context=u:r:fsck_untrusted:s0
+  179     1 logd     S N  14720  0.3   0  0.0 /system/bin/logd
+  199     1 drm      S    13840  0.3   4  0.0 /system/bin/drmserver
+  206     1 keystore S    10504  0.2   5  0.0 /system/bin/keystore /data/misc/keystore
+  213     1 system   S     9768  0.2   0  0.0 /system/bin/gatekeeperd /data/misc/gatekeeper
+  198     1 root     S     7096  0.1   4  0.0 /system/bin/rild
+  197     1 root     S     6460  0.1   2  0.0 /system/bin/debuggerd64
+  190     1 root     S     6404  0.1   5  0.0 /system/bin/lmkd
+  191     1 system   S     6004  0.1   4  0.0 /system/bin/servicemanager
+  201     1 root     S     5856  0.1   3  0.0 /system/bin/installd
+  205   189 root     S     5796  0.1   2  0.0 {sh} 
+  202   189 root     S     5796  0.1   2  0.0 {sh} 
+  203   189 root     S     5796  0.1   1  0.0 {sh} 
+  207   189 root     S     5796  0.1   5  0.0 {sh} 
+  646     1 dhcp     S     5748  0.1   5  0.0 /system/bin/dhcpcd -aABDKL -f /system/etc/dhcpcd/dhcpcd.conf -h android-ce5377f5d6e70209 eth0
+ 1212  1147 system   S     5656  0.1   5  0.0 logcat -v time *:V | grep ( 1147)
+  189     1 root     S     5276  0.1   1  0.0 /system/bin/console_agent
+  193     1 root     S     5272  0.1   1  0.0 /system/bin/roothide
+ 1223   287 root     S     5184  0.1   3  0.0 daemonsu:1000  
+    1     0 root     S     4264  0.1   5  0.0 /init --second-stage
+  188     1 root     S     4256  0.1   5  0.0 /sbin/healthd
+  287     1 root     S     4152  0.1   3  0.0 daemonsu:master
+  177     1 root     S     3744  0.0   5  0.0 /sbin/ueventd
+  236     1 root     S     3664  0.0   1  0.0 /system/xbin/super_init_sh_guard
+  196     1 root     S     3496  0.0   5  0.0 /system/bin/debuggerd
+  225     1 root     S     3256  0.0   4  0.0 /system/xbin/dropbear -A -j -k -R /data/.ssh/authorized_keys -r /data/.ssh/dropbear_rsa_host_key
+14244   225 root     S     3256  0.0   5  0.0 /system/xbin/dropbear -A -j -k -R /data/.ssh/authorized_keys -r /data/.ssh/dropbear_rsa_host_key
+14245 14244 root     R     3200  0.0   4  0.0 top -bn1
+  239     1 root     S     2864  0.0   5  0.0 daemonsu:mount:master
+
+
+#over_cpu_mem:5 session
+
+#check_nfs: 6 session
+yes
+
+#over_nfs:6 session
+
+--->*10.109.1.2* will start check
+
+#check_df: 100 session
+/system                991.9M   830.1M   161.8M   4096
+
+#over_df:100 session
+
+#check_df: 101 session
+/dev                     1.9G    28.0K     1.9G   4096
+
+#over_df:101 session
+
+#check_df: 102 session
+/dev/graphics/fb0        1.9G    36.0K     1.9G   4096
+
+#over_df:102 session
+
+#check_df: 103 session
+/data                   27.2G     7.8G    19.4G   4096
+
+#over_df:103 session
+
+#check_df: 104 session
+/                        1.9G     2.8M     1.9G   4096
+
+#over_df:104 session
+
+#check_df: 105 session
+/sys/fs/cgroup           1.9G     0.0K     1.9G   4096
+
+#over_df:105 session
+
+#check_df: 106 session
+/mnt                     1.9G     0.0K     1.9G   4096
+
+#over_df:106 session
+
+#check_df: 107 session
+/subin                   1.9G   160.0K     1.9G   4096
+
+#over_df:107 session
+
+#check_df: 108 session
+/storage                 1.9G     0.0K     1.9G   4096
+
+#over_df:108 session
+
+#check_df: 109 session
+/mnt/runtime/default/emulated    27.2G     7.8G    19.4G   4096
+
+#over_df:109 session
+
+#check_df: 110 session
+/storage/emulated       27.2G     7.8G    19.4G   4096
+
+#over_df:110 session
+
+#check_df: 111 session
+/mnt/runtime/read/emulated    27.2G     7.8G    19.4G   4096
+
+#over_df:111 session
+
+#check_df: 112 session
+/mnt/runtime/write/emulated    27.2G     7.8G    19.4G   4096
+
+#over_df:112 session
+
+#check_df: 113 session
+/data/nfs             1426.6G    37.2G  1389.4G   1048576
+
+#over_df:113 session
+
+#check_battery: 2 session
+Current Battery Service state:
+  AC powered: true
+  USB powered: true
+  Wireless powered: false
+  Max charging current: 0
+  status: 3
+  health: 2
+  present: true
+  level: 100
+  scale: 100
+  voltage: 3
+  temperature: 26
+  technology: Li-ion
+
+#over_battery:2 session
+
+#check_cpu: 3 session
+attribute:1416000
+temperatue:31666
+
+#over_cpu:3 session
+
+#check_internet: 4 session
+realm_name:yes
+online:yes
+
+#over_internet:4 session
+
+#check_cpu_mem: 5 session
+Mem: 1924580K used, 2017196K free, 6156K shrd, 88772K buff, 1212852K cached
+CPU:  0.0% usr  0.0% sys  0.0% nic  100% idle  0.0% io  0.0% irq  0.0% sirq
+Load average: 1.08 1.04 1.01 1/751 14627
+  PID  PPID USER     STAT   VSZ %VSZ CPU %CPU COMMAND
+  544   206 system   S <  2345m 60.9   5  0.0 system_server
+ 1132   206 system   S    2056m 53.4   4  0.0 {migu.controller} com.migu.controller
+  206     1 root     S    2035m 52.8   5  0.0 {main} zygote64
+  934   206 u0_a8    S    1763m 45.8   0  0.0 {ndroid.launcher} com.android.launcher
+  767   206 u0_a17   S    1738m 45.1   4  0.0 {ndroid.systemui} com.android.systemui
+  915   206 radio    S    1553m 40.3   4  0.0 {m.android.phone} com.android.phone
+ 1493   206 u0_a49   S    1544m 40.1   5  0.0 {droid.messaging} com.android.messaging
+ 1432   206 u0_a23   S    1543m 40.0   4  0.0 {ndroid.calendar} com.android.calendar
+ 1127   206 system   S    1541m 40.0   0  0.0 com.migu.agent
+ 1258   206 u0_a27   S    1540m 40.0   3  0.0 {droid.deskclock} com.android.deskclock
+  786   206 u0_a2    S    1536m 39.9   5  0.0 {d.process.acore} android.process.acore
+31175   206 u0_a6    S    1535m 39.8   4  0.0 {d.process.media} android.process.media
+ 1384   206 u0_a1    S    1533m 39.8   5  0.0 {viders.calendar} com.android.providers.calendar
+  963   206 u0_a44   S    1533m 39.8   2  0.0 {id.printspooler} com.android.printspooler
+ 1618   206 u0_a10   S    1529m 39.7   5  0.0 {android.musicfx} com.android.musicfx
+ 1050   206 u0_a48   S    1529m 39.7   4  0.0 {android.smspush} com.android.smspush
+  207     1 root     S    1486m 38.6   4  0.0 {main} zygote
+11827   207 u0_a1795 S    1326m 34.4   2  0.0 {nt.mobileqq:MSF} com.tencent.mobileqq:MSF
+20065   207 u0_a1795 S    1302m 33.8   1  0.0 {encent.mobileqq} com.tencent.mobileqq
+  895   207 u0_a15   S    1058m 27.5   5  0.0 {method.sogouoem} com.sohu.inputmethod.sogouoem
+ 3871   207 u0_a15   S    1018m 26.4   4  0.0 {em:push_service} com.sohu.inputmethod.sogouoem:push_service
+ 2837   207 u0_a15   S    1017m 26.4   4  0.0 {ogouoem:classic} com.sohu.inputmethod.sogouoem:classic
+  191     1 system   S <   293m  7.6   5  0.0 /system/bin/surfaceflinger
+  200     1 media    S    58824  1.4   2  0.0 /system/bin/mediaserver
+  195     1 root     S    19316  0.4   5  0.0 /system/bin/netd
+  180     1 root     S    15684  0.4   4  0.0 /system/bin/vold --blkid_context=u:r:blkid:s0 --blkid_untrusted_context=u:r:blkid_untrusted:s0 --fsck_context=u:r:fsck:s0 --fsck_untrusted_context=u:r:fsck_untrusted:s0
+  179     1 logd     S N  14720  0.3   0  0.0 /system/bin/logd
+  199     1 drm      S    13840  0.3   4  0.0 /system/bin/drmserver
+  203     1 keystore S    10504  0.2   4  0.0 /system/bin/keystore /data/misc/keystore
+  208     1 system   S     9768  0.2   4  0.0 /system/bin/gatekeeperd /data/misc/gatekeeper
+  198     1 root     S     7096  0.1   5  0.0 /system/bin/rild
+  197     1 root     S     6460  0.1   5  0.0 /system/bin/debuggerd64
+  189     1 root     S     6404  0.1   4  0.0 /system/bin/lmkd
+  190     1 system   S     6004  0.1   5  0.0 /system/bin/servicemanager
+  201     1 root     S     5856  0.1   4  0.0 /system/bin/installd
+  211   188 root     S     5796  0.1   5  0.0 {sh} 
+  209   188 root     S     5796  0.1   5  0.0 {sh} 
+  210   188 root     S     5796  0.1   4  0.0 {sh} 
+  212   188 root     S     5796  0.1   5  0.0 {sh} 
+  645     1 dhcp     S     5748  0.1   4  0.0 /system/bin/dhcpcd -aABDKL -f /system/etc/dhcpcd/dhcpcd.conf -h android-5e6f1ca52749e3e9 eth0
+ 1196  1132 system   S     5656  0.1   5  0.0 logcat -v time *:V | grep ( 1132)
+  188     1 root     S     5276  0.1   1  0.0 /system/bin/console_agent
+  193     1 root     S     5272  0.1   4  0.0 /system/bin/roothide
+ 1190   287 root     S     5184  0.1   2  0.0 daemonsu:1000  
+    1     0 root     S     4264  0.1   4  0.0 /init --second-stage
+  187     1 root     S     4256  0.1   4  0.0 /sbin/healthd
+  287     1 root     S     4152  0.1   5  0.0 daemonsu:master
+  177     1 root     S     3744  0.0   4  0.0 /sbin/ueventd
+  238     1 root     S     3664  0.0   4  0.0 /system/xbin/super_init_sh_guard
+  196     1 root     S     3496  0.0   5  0.0 /system/bin/debuggerd
+  221     1 root     S     3256  0.0   4  0.0 /system/xbin/dropbear -A -j -k -R /data/.ssh/authorized_keys -r /data/.ssh/dropbear_rsa_host_key
+14626   221 root     S     3256  0.0   5  0.0 /system/xbin/dropbear -A -j -k -R /data/.ssh/authorized_keys -r /data/.ssh/dropbear_rsa_host_key
+14627 14626 root     R     3200  0.0   4  0.0 top -bn1
+  239     1 root     S     2864  0.0   0  0.0 daemonsu:mount:master
+
+
+#over_cpu_mem:5 session
+
+#check_nfs: 6 session
+yes
+
+#over_nfs:6 session
+
+--->*10.109.1.3* will start check
+
+#check_df: 100 session
+/system                991.9M   830.1M   161.8M   4096
+
+#over_df:100 session
+
+#check_df: 101 session
+/dev                     1.9G    28.0K     1.9G   4096
+
+#over_df:101 session
+
+#check_df: 102 session
+/dev/graphics/fb0        1.9G    36.0K     1.9G   4096
+
+#over_df:102 session
+
+#check_df: 103 session
+/data                   27.2G    11.5G    15.7G   4096
+
+#over_df:103 session
+
+#check_df: 104 session
+/                        1.9G     2.8M     1.9G   4096
+
+#over_df:104 session
+
+#check_df: 105 session
+/sys/fs/cgroup           1.9G     0.0K     1.9G   4096
+
+#over_df:105 session
+
+#check_df: 106 session
+/mnt                     1.9G     0.0K     1.9G   4096
+
+#over_df:106 session
+
+#check_df: 107 session
+/subin                   1.9G   160.0K     1.9G   4096
+
+#over_df:107 session
+
+#check_df: 108 session
+/storage                 1.9G     0.0K     1.9G   4096
+
+#over_df:108 session
+
+#check_df: 109 session
+/mnt/runtime/default/emulated    27.2G    11.5G    15.7G   4096
+
+#over_df:109 session
+
+#check_df: 110 session
+/storage/emulated       27.2G    11.5G    15.7G   4096
+
+#over_df:110 session
+
+#check_df: 111 session
+/mnt/runtime/read/emulated    27.2G    11.5G    15.7G   4096
+
+#over_df:111 session
+
+#check_df: 112 session
+/mnt/runtime/write/emulated    27.2G    11.5G    15.7G   4096
+
+#over_df:112 session
+
+#check_df: 113 session
+/data/nfs             1426.6G    37.2G  1389.4G   1048576
+
+#over_df:113 session
+
+#check_battery: 2 session
+Current Battery Service state:
+  AC powered: true
+  USB powered: true
+  Wireless powered: false
+  Max charging current: 0
+  status: 3
+  health: 2
+  present: true
+  level: 100
+  scale: 100
+  voltage: 3
+  temperature: 26
+  technology: Li-ion
+
+#over_battery:2 session
+
+#check_cpu: 3 session
+attribute:1416000
+temperatue:31666
+
+#over_cpu:3 session
+
+#check_internet: 4 session
+realm_name:yes
+online:yes
+
+#over_internet:4 session
+
+#check_cpu_mem: 5 session
+Mem: 2331064K used, 1610712K free, 6156K shrd, 106200K buff, 1584168K cached
+CPU:  0.0% usr  0.0% sys  0.0% nic  100% idle  0.0% io  0.0% irq  0.0% sirq
+Load average: 1.08 1.02 1.01 1/754 25380
+  PID  PPID USER     STAT   VSZ %VSZ CPU %CPU COMMAND
+25380 25379 root     R     3200  0.0   4  0.0 top -bn1
+  542   210 system   S <  2344m 60.9   4  0.0 system_server
+  210     1 root     S    2035m 52.8   0  0.0 {main} zygote64
+  952   210 u0_a8    S    1763m 45.8   5  0.0 {ndroid.launcher} com.android.launcher
+  765   210 u0_a17   S    1738m 45.1   4  0.0 {ndroid.systemui} com.android.systemui
+  941   210 radio    S    1553m 40.3   4  0.0 {m.android.phone} com.android.phone
+ 1120   210 system   S    1544m 40.1   3  0.0 com.migu.agent
+ 1236   210 u0_a27   S    1539m 39.9   4  0.0 {droid.deskclock} com.android.deskclock
+ 9234   210 u0_a23   S    1538m 39.9   4  0.0 {ndroid.calendar} com.android.calendar
+  773   210 u0_a2    S    1536m 39.9   1  0.0 {d.process.acore} android.process.acore
+ 2596   210 u0_a6    S    1534m 39.8   4  0.0 {d.process.media} android.process.media
+ 1366   210 u0_a1    S    1533m 39.8   4  0.0 {viders.calendar} com.android.providers.calendar
+ 1582   210 u0_a4    S    1530m 39.7   0  0.0 {id.defcontainer} com.android.defcontainer
+ 1623   210 u0_a10   S    1529m 39.7   4  0.0 {android.musicfx} com.android.musicfx
+ 1066   210 u0_a48   S    1529m 39.7   5  0.0 {android.smspush} com.android.smspush
+  211     1 root     S    1486m 38.6   4  0.0 {main} zygote
+20411   211 u0_a438  S    1323m 34.3   4  0.0 {nt.mobileqq:MSF} com.tencent.mobileqq:MSF
+ 7902   211 u0_a438  S    1306m 33.9   1  0.0 {encent.mobileqq} com.tencent.mobileqq
+  920   211 u0_a15   S    1042m 27.0   5  0.0 {method.sogouoem} com.sohu.inputmethod.sogouoem
+ 1485   211 u0_a439  S    1034m 26.8   4  0.0 {e:xg_service_v4} com.tencent.tmgp.sgame:xg_service_v4
+ 1510   211 u0_a439  S    1030m 26.7   5  0.0 {cent.tmgp.sgame} com.tencent.tmgp.sgame
+ 3124   211 u0_a15   S    1020m 26.5   5  0.0 {em:push_service} com.sohu.inputmethod.sogouoem:push_service
+ 1639   211 u0_a15   S    1016m 26.4   4  0.0 {ogouoem:classic} com.sohu.inputmethod.sogouoem:classic
+  192     1 system   S <   291m  7.5   4  0.0 /system/bin/surfaceflinger
+  200     1 media    S    57792  1.4   4  0.0 /system/bin/mediaserver
+  195     1 root     S    19316  0.4   4  0.0 /system/bin/netd
+  180     1 root     S    15684  0.4   4  0.0 /system/bin/vold --blkid_context=u:r:blkid:s0 --blkid_untrusted_context=u:r:blkid_untrusted:s0 --fsck_context=u:r:fsck:s0 --fsck_untrusted_context=u:r:fsck_untrusted:s0
+  199     1 drm      S    13840  0.3   1  0.0 /system/bin/drmserver
+  179     1 logd     S N  13680  0.3   1  0.0 /system/bin/logd
+  205     1 keystore S    10504  0.2   5  0.0 /system/bin/keystore /data/misc/keystore
+  212     1 system   S     9768  0.2   2  0.0 /system/bin/gatekeeperd /data/misc/gatekeeper
+  198     1 root     S     7096  0.1   4  0.0 /system/bin/rild
+  197     1 root     S     6460  0.1   3  0.0 /system/bin/debuggerd64
+  190     1 root     S     6404  0.1   5  0.0 /system/bin/lmkd
+  191     1 system   S     6004  0.1   4  0.0 /system/bin/servicemanager
+  201     1 root     S     5856  0.1   5  0.0 /system/bin/installd
+  209   189 root     S     5796  0.1   3  0.0 {sh} 
+  202   189 root     S     5796  0.1   3  0.0 {sh} 
+  203   189 root     S     5796  0.1   4  0.0 {sh} 
+  206   189 root     S     5796  0.1   4  0.0 {sh} 
+  646     1 dhcp     S     5748  0.1   4  0.0 /system/bin/dhcpcd -aABDKL -f /system/etc/dhcpcd/dhcpcd.conf -h android-8f80d96be9f949b0 eth0
+  189     1 root     S     5276  0.1   1  0.0 /system/bin/console_agent
+  193     1 root     S     5272  0.1   5  0.0 /system/bin/roothide
+ 1173   282 root     S     5184  0.1   2  0.0 daemonsu:1000  
+    1     0 root     S     4264  0.1   4  0.0 /init --second-stage
+  188     1 root     S     4256  0.1   4  0.0 /sbin/healthd
+  282     1 root     S     4152  0.1   5  0.0 daemonsu:master
+  177     1 root     S     3744  0.0   3  0.0 /sbin/ueventd
+  236     1 root     S     3664  0.0   0  0.0 /system/xbin/super_init_sh_guard
+  196     1 root     S     3496  0.0   4  0.0 /system/bin/debuggerd
+  220     1 root     S     3256  0.0   5  0.0 /system/xbin/dropbear -A -j -k -R /data/.ssh/authorized_keys -r /data/.ssh/dropbear_rsa_host_key
+25379   220 root     S     3256  0.0   5  0.0 /system/xbin/dropbear -A -j -k -R /data/.ssh/authorized_keys -r /data/.ssh/dropbear_rsa_host_key
+  238     1 root     S     2864  0.0   3  0.0 daemonsu:mount:master
+
+
+#over_cpu_mem:5 session
+
+#check_nfs: 6 session
+yes
+
+#over_nfs:6 session
+
+--->*10.109.1.4* will start check
+
+#check_df: 100 session
+/system                991.9M   830.1M   161.8M   4096
+
+#over_df:100 session
+
+#check_df: 101 session
+/dev                     1.9G    28.0K     1.9G   4096
+
+#over_df:101 session
+
+#check_df: 102 session
+/dev/graphics/fb0        1.9G    36.0K     1.9G   4096
+
+#over_df:102 session
+
+#check_df: 103 session
+/data                   27.2G     4.0G    23.2G   4096
+
+#over_df:103 session
+
+#check_df: 104 session
+/                        1.9G     2.8M     1.9G   4096
+
+#over_df:104 session
+
+#check_df: 105 session
+/sys/fs/cgroup           1.9G     0.0K     1.9G   4096
+
+#over_df:105 session
+
+#check_df: 106 session
+/mnt                     1.9G     0.0K     1.9G   4096
+
+#over_df:106 session
+
+#check_df: 107 session
+/subin                   1.9G   160.0K     1.9G   4096
+
+#over_df:107 session
+
+#check_df: 108 session
+/storage                 1.9G     0.0K     1.9G   4096
+
+#over_df:108 session
+
+#check_df: 109 session
+/mnt/runtime/default/emulated    27.2G     4.0G    23.2G   4096
+
+#over_df:109 session
+
+#check_df: 110 session
+/storage/emulated       27.2G     4.0G    23.2G   4096
+
+#over_df:110 session
+
+#check_df: 111 session
+/mnt/runtime/read/emulated    27.2G     4.0G    23.2G   4096
+
+#over_df:111 session
+
+#check_df: 112 session
+/mnt/runtime/write/emulated    27.2G     4.0G    23.2G   4096
+
+#over_df:112 session
+
+#check_df: 113 session
+/data/nfs             1426.6G    37.2G  1389.4G   1048576
+
+#over_df:113 session
+
+#check_battery: 2 session
+Current Battery Service state:
+  AC powered: true
+  USB powered: true
+  Wireless powered: false
+  Max charging current: 0
+  status: 3
+  health: 2
+  present: true
+  level: 100
+  scale: 100
+  voltage: 3
+  temperature: 26
+  technology: Li-ion
+
+#over_battery:2 session
+
+#check_cpu: 3 session
+attribute:1416000
+temperatue:33333
+
+#over_cpu:3 session
+
+#check_internet: 4 session
+realm_name:yes
+online:yes
+
+#over_internet:4 session
+
+#check_cpu_mem: 5 session
+Mem: 1815412K used, 2126364K free, 6156K shrd, 52368K buff, 1168288K cached
+CPU:  0.0% usr  0.0% sys  0.0% nic  100% idle  0.0% io  0.0% irq  0.0% sirq
+Load average: 1.04 1.05 1.00 1/748 20436
+  PID  PPID USER     STAT   VSZ %VSZ CPU %CPU COMMAND
+19833   212 u0_a745  S    1326m 34.4   4  0.0 {nt.mobileqq:MSF} com.tencent.mobileqq:MSF
+  559   211 system   S <  2345m 60.9   4  0.0 system_server
+ 1061   211 system   S    2057m 53.4   5  0.0 {migu.controller} com.migu.controller
+  211     1 root     S    2035m 52.8   5  0.0 {main} zygote64
+  900   211 u0_a8    S    1766m 45.8   0  0.0 {ndroid.launcher} com.android.launcher
+  664   211 u0_a17   S    1737m 45.1   5  0.0 {ndroid.systemui} com.android.systemui
+ 1444   211 u0_a29   S    1554m 40.3   4  0.0 {m.android.email} com.android.email
+  893   211 radio    S    1552m 40.3   5  0.0 {m.android.phone} com.android.phone
+ 1474   211 u0_a49   S    1545m 40.1   5  0.0 {droid.messaging} com.android.messaging
+ 1056   211 system   S    1542m 40.0   4  0.0 com.migu.agent
+ 1321   211 u0_a23   S    1540m 40.0   2  0.0 {ndroid.calendar} com.android.calendar
+ 1300   211 u0_a27   S    1538m 39.9   5  0.0 {droid.deskclock} com.android.deskclock
+  943   211 u0_a2    S    1537m 39.9   4  0.0 {d.process.acore} android.process.acore
+  911   211 u0_a44   S    1532m 39.8   1  0.0 {id.printspooler} com.android.printspooler
+ 1342   211 u0_a1    S    1531m 39.7   4  0.0 {viders.calendar} com.android.providers.calendar
+ 1582   211 u0_a10   S    1530m 39.7   5  0.0 {android.musicfx} com.android.musicfx
+  990   211 u0_a48   S    1529m 39.7   4  0.0 {android.smspush} com.android.smspush
+  212     1 root     S    1486m 38.6   5  0.0 {main} zygote
+19849   212 u0_a745  S    1304m 33.8   2  0.0 {encent.mobileqq} com.tencent.mobileqq
+  871   212 u0_a15   S    1058m 27.5   5  0.0 {method.sogouoem} com.sohu.inputmethod.sogouoem
+ 3776   212 u0_a15   S    1017m 26.4   4  0.0 {em:push_service} com.sohu.inputmethod.sogouoem:push_service
+ 1147   212 u0_a15   S    1014m 26.3   5  0.0 {ogouoem:classic} com.sohu.inputmethod.sogouoem:classic
+  192     1 system   S <   295m  7.6   4  0.0 /system/bin/surfaceflinger
+  202     1 media    S    57024  1.4   2  0.0 /system/bin/mediaserver
+  195     1 root     S    19316  0.4   4  0.0 /system/bin/netd
+  179     1 logd     S N  14464  0.3   2  0.0 /system/bin/logd
+  180     1 root     S    14408  0.3   4  0.0 /system/bin/vold --blkid_context=u:r:blkid:s0 --blkid_untrusted_context=u:r:blkid_untrusted:s0 --fsck_context=u:r:fsck:s0 --fsck_untrusted_context=u:r:fsck_untrusted:s0
+  200     1 drm      S    13840  0.3   5  0.0 /system/bin/drmserver
+  208     1 keystore S    10504  0.2   5  0.0 /system/bin/keystore /data/misc/keystore
+  213     1 system   S     9768  0.2   4  0.0 /system/bin/gatekeeperd /data/misc/gatekeeper
+  199     1 root     S     7096  0.1   3  0.0 /system/bin/rild
+  198     1 root     S     6460  0.1   1  0.0 /system/bin/debuggerd64
+  190     1 root     S     6404  0.1   4  0.0 /system/bin/lmkd
+  191     1 system   S     6004  0.1   5  0.0 /system/bin/servicemanager
+  204     1 root     S     5856  0.1   2  0.0 /system/bin/installd
+  205   189 root     S     5796  0.1   1  0.0 {sh} 
+  201   189 root     S     5796  0.1   3  0.0 {sh} 
+  203   189 root     S     5796  0.1   0  0.0 {sh} 
+  207   189 root     S     5796  0.1   2  0.0 {sh} 
+  640     1 dhcp     S     5748  0.1   0  0.0 /system/bin/dhcpcd -aABDKL -f /system/etc/dhcpcd/dhcpcd.conf -h android-43c941f29a475c58 eth0
+ 1089  1061 system   S     5656  0.1   4  0.0 logcat -v time *:V | grep ( 1061)
+  189     1 root     S     5276  0.1   4  0.0 /system/bin/console_agent
+  193     1 root     S     5272  0.1   3  0.0 /system/bin/roothide
+ 1095   288 root     S     5184  0.1   4  0.0 daemonsu:1000  
+    1     0 root     S     4264  0.1   2  0.0 /init --second-stage
+  188     1 root     S     4256  0.1   5  0.0 /sbin/healthd
+  288     1 root     S     4152  0.1   4  0.0 daemonsu:master
+  177     1 root     S     3744  0.0   4  0.0 /sbin/ueventd
+  239     1 root     S     3664  0.0   2  0.0 /system/xbin/super_init_sh_guard
+  197     1 root     S     3496  0.0   4  0.0 /system/bin/debuggerd
+  227     1 root     S     3256  0.0   5  0.0 /system/xbin/dropbear -A -j -k -R /data/.ssh/authorized_keys -r /data/.ssh/dropbear_rsa_host_key
+20435   227 root     S     3256  0.0   4  0.0 /system/xbin/dropbear -A -j -k -R /data/.ssh/authorized_keys -r /data/.ssh/dropbear_rsa_host_key
+20436 20435 root     R     3200  0.0   5  0.0 top -bn1
+  241     1 root     S     2864  0.0   3  0.0 daemonsu:mount:master
+
+
+#over_cpu_mem:5 session
+
+#check_nfs: 6 session
+yes
+
+#over_nfs:6 session
+
+--->*10.109.1.5* will start check
+
+#check_df: 100 session
+/system                991.9M   830.1M   161.8M   4096
+
+#over_df:100 session
+
+#check_df: 101 session
+/dev                     1.9G    28.0K     1.9G   4096
+
+#over_df:101 session
+
+#check_df: 102 session
+/dev/graphics/fb0        1.9G    36.0K     1.9G   4096
+
+#over_df:102 session
+
+#check_df: 103 session
+/data                   27.2G     7.7G    19.5G   4096
+
+#over_df:103 session
+
+#check_df: 104 session
+/                        1.9G     2.8M     1.9G   4096
+
+#over_df:104 session
+
+#check_df: 105 session
+/sys/fs/cgroup           1.9G     0.0K     1.9G   4096
+
+#over_df:105 session
+
+#check_df: 106 session
+/mnt                     1.9G     0.0K     1.9G   4096
+
+#over_df:106 session
+
+#check_df: 107 session
+/subin                   1.9G   160.0K     1.9G   4096
+
+#over_df:107 session
+
+#check_df: 108 session
+/storage                 1.9G     0.0K     1.9G   4096
+
+#over_df:108 session
+
+#check_df: 109 session
+/mnt/runtime/default/emulated    27.2G     7.7G    19.5G   4096
+
+#over_df:109 session
+
+#check_df: 110 session
+/storage/emulated       27.2G     7.7G    19.5G   4096
+
+#over_df:110 session
+
+#check_df: 111 session
+/mnt/runtime/read/emulated    27.2G     7.7G    19.5G   4096
+
+#over_df:111 session
+
+#check_df: 112 session
+/mnt/runtime/write/emulated    27.2G     7.7G    19.5G   4096
+
+#over_df:112 session
+
+#check_df: 113 session
+/data/nfs             1426.6G    37.2G  1389.4G   1048576
+
+#over_df:113 session
+
+#check_battery: 2 session
+Current Battery Service state:
+  AC powered: true
+  USB powered: true
+  Wireless powered: false
+  Max charging current: 0
+  status: 3
+  health: 2
+  present: true
+  level: 100
+  scale: 100
+  voltage: 3
+  temperature: 26
+  technology: Li-ion
+
+#over_battery:2 session
+
+#check_cpu: 3 session
+attribute:1416000
+temperatue:35000
+
+#over_cpu:3 session
+
+#check_internet: 4 session
+realm_name:yes
+online:yes
+
+#over_internet:4 session
+
+#check_cpu_mem: 5 session
+Mem: 2149096K used, 1792680K free, 6156K shrd, 90056K buff, 1422216K cached
+CPU:  0.0% usr  1.6% sys  0.0% nic 98.3% idle  0.0% io  0.0% irq  0.0% sirq
+Load average: 1.30 1.09 1.03 1/761 14643
+  PID  PPID USER     STAT   VSZ %VSZ CPU %CPU COMMAND
+  541   210 system   S <  2345m 60.9   5  0.0 system_server
+ 1134   210 system   S    2058m 53.4   3  0.0 {migu.controller} com.migu.controller
+  210     1 root     S    2035m 52.8   4  0.0 {main} zygote64
+  926   210 u0_a8    S    1767m 45.9   0  0.0 {ndroid.launcher} com.android.launcher
+  766   210 u0_a17   S    1737m 45.1   4  0.0 {ndroid.systemui} com.android.systemui
+ 1488   210 u0_a29   S    1555m 40.4   4  0.0 {m.android.email} com.android.email
+  908   210 radio    S    1553m 40.3   5  0.0 {m.android.phone} com.android.phone
+ 1521   210 u0_a49   S    1545m 40.1   5  0.0 {droid.messaging} com.android.messaging
+ 1450   210 u0_a23   S    1543m 40.0   4  0.0 {ndroid.calendar} com.android.calendar
+ 1128   210 system   S    1542m 40.0   1  0.0 com.migu.agent
+ 1281   210 u0_a27   S    1541m 40.0   4  0.0 {droid.deskclock} com.android.deskclock
+  775   210 u0_a2    S    1536m 39.9   1  0.0 {d.process.acore} android.process.acore
+29209   210 u0_a6    S    1535m 39.9   5  0.0 {d.process.media} android.process.media
+ 1398   210 u0_a1    S    1534m 39.8   4  0.0 {viders.calendar} com.android.providers.calendar
+ 1621   210 u0_a10   S    1529m 39.7   5  0.0 {android.musicfx} com.android.musicfx
+ 1065   210 u0_a48   S    1529m 39.7   2  0.0 {android.smspush} com.android.smspush
+  211     1 root     S    1487m 38.6   4  0.0 {main} zygote
+11841   211 u0_a2023 S    1322m 34.3   2  0.0 {nt.mobileqq:MSF} com.tencent.mobileqq:MSF
+20057   211 u0_a2023 S    1302m 33.8   5  0.0 {encent.mobileqq} com.tencent.mobileqq
+  890   211 u0_a15   S    1060m 27.5   4  0.0 {method.sogouoem} com.sohu.inputmethod.sogouoem
+ 2829   211 u0_a15   S    1018m 26.4   5  0.0 {em:push_service} com.sohu.inputmethod.sogouoem:push_service
+ 2817   211 u0_a15   S    1017m 26.4   5  0.0 {ogouoem:classic} com.sohu.inputmethod.sogouoem:classic
+  192     1 system   S <   293m  7.6   4  0.0 /system/bin/surfaceflinger
+  204     1 media    S    58824  1.4   5  0.0 /system/bin/mediaserver
+  195     1 root     S    19572  0.5   4  0.0 /system/bin/netd
+  180     1 root     S    15684  0.4   5  0.0 /system/bin/vold --blkid_context=u:r:blkid:s0 --blkid_untrusted_context=u:r:blkid_untrusted:s0 --fsck_context=u:r:fsck:s0 --fsck_untrusted_context=u:r:fsck_untrusted:s0
+  179     1 logd     S N  15488  0.3   2  0.0 /system/bin/logd
+  203     1 drm      S    13840  0.3   4  0.0 /system/bin/drmserver
+  207     1 keystore S    10504  0.2   4  0.0 /system/bin/keystore /data/misc/keystore
+  212     1 system   S     9768  0.2   5  0.0 /system/bin/gatekeeperd /data/misc/gatekeeper
+  198     1 root     S     7096  0.1   1  0.0 /system/bin/rild
+  197     1 root     S     6460  0.1   4  0.0 /system/bin/debuggerd64
+  190     1 root     S     6404  0.1   4  0.0 /system/bin/lmkd
+  191     1 system   S     6004  0.1   2  0.0 /system/bin/servicemanager
+  205     1 root     S     5856  0.1   3  0.0 /system/bin/installd
+  202   189 root     S     5796  0.1   1  0.0 {sh} 
+  201   189 root     S     5796  0.1   5  0.0 {sh} 
+  200   189 root     S     5796  0.1   3  0.0 {sh} 
+  199   189 root     S     5796  0.1   4  0.0 {sh} 
+  646     1 dhcp     S     5748  0.1   4  0.0 /system/bin/dhcpcd -aABDKL -f /system/etc/dhcpcd/dhcpcd.conf -h android-c5c5eb0a07ab0463 eth0
+ 1186  1134 system   S     5656  0.1   5  0.0 logcat -v time *:V | grep ( 1134)
+  189     1 root     S     5276  0.1   2  0.0 /system/bin/console_agent
+  193     1 root     S     5272  0.1   2  0.0 /system/bin/roothide
+ 1205   286 root     S     5184  0.1   5  0.0 daemonsu:1000  
+    1     0 root     S     4264  0.1   4  0.0 /init --second-stage
+  188     1 root     S     4256  0.1   5  0.0 /sbin/healthd
+  286     1 root     S     4152  0.1   0  0.0 daemonsu:master
+  177     1 root     S     3744  0.0   4  0.0 /sbin/ueventd
+  236     1 root     S     3664  0.0   4  0.0 /system/xbin/super_init_sh_guard
+  196     1 root     S     3496  0.0   2  0.0 /system/bin/debuggerd
+  224     1 root     S     3256  0.0   5  0.0 /system/xbin/dropbear -A -j -k -R /data/.ssh/authorized_keys -r /data/.ssh/dropbear_rsa_host_key
+14642   224 root     S     3256  0.0   4  0.0 /system/xbin/dropbear -A -j -k -R /data/.ssh/authorized_keys -r /data/.ssh/dropbear_rsa_host_key
+14643 14642 root     R     3200  0.0   5  0.0 top -bn1
+  238     1 root     S     2864  0.0   0  0.0 daemonsu:mount:master
+
+
+#over_cpu_mem:5 session
+
+#check_nfs: 6 session
+yes
+
+#over_nfs:6 session
+
+--->*10.109.6.53* will start check
+
+#check_df: 100 session
+/system                991.9M   830.1M   161.8M   4096
+
+#over_df:100 session
+
+#check_df: 101 session
+/dev                     1.9G    28.0K     1.9G   4096
+
+#over_df:101 session
+
+#check_df: 102 session
+/dev/graphics/fb0        1.9G    36.0K     1.9G   4096
+
+#over_df:102 session
+
+#check_df: 103 session
+/data                   27.2G     2.9G    24.3G   4096
+
+#over_df:103 session
+
+#check_df: 104 session
+/                        1.9G     2.8M     1.9G   4096
+
+#over_df:104 session
+
+#check_df: 105 session
+/sys/fs/cgroup           1.9G     0.0K     1.9G   4096
+
+#over_df:105 session
+
+#check_df: 106 session
+/mnt                     1.9G     0.0K     1.9G   4096
+
+#over_df:106 session
+
+#check_df: 107 session
+/subin                   1.9G   160.0K     1.9G   4096
+
+#over_df:107 session
+
+#check_df: 108 session
+/storage                 1.9G     0.0K     1.9G   4096
+
+#over_df:108 session
+
+#check_df: 109 session
+/mnt/runtime/default/emulated    27.2G     2.9G    24.3G   4096
+
+#over_df:109 session
+
+#check_df: 110 session
+/storage/emulated       27.2G     2.9G    24.3G   4096
+
+#over_df:110 session
+
+#check_df: 111 session
+/mnt/runtime/read/emulated    27.2G     2.9G    24.3G   4096
+
+#over_df:111 session
+
+#check_df: 112 session
+/mnt/runtime/write/emulated    27.2G     2.9G    24.3G   4096
+
+#over_df:112 session
+
+#check_df: 113 session
+/data/nfs             1426.6G    37.2G  1389.4G   1048576
+
+#over_df:113 session
+
+#check_battery: 2 session
+Current Battery Service state:
+  AC powered: true
+  USB powered: true
+  Wireless powered: false
+  Max charging current: 0
+  status: 3
+  health: 2
+  present: true
+  level: 100
+  scale: 100
+  voltage: 3
+  temperature: 26
+  technology: Li-ion
+
+#over_battery:2 session
+
+#check_cpu: 3 session
+attribute:1416000
+temperatue:33888
+
+#over_cpu:3 session
+
+#check_internet: 4 session
+realm_name:yes
+online:yes
+
+#over_internet:4 session
+
+#check_cpu_mem: 5 session
+Mem: 1637204K used, 2304572K free, 6156K shrd, 43488K buff, 1024564K cached
+CPU:  0.0% usr  1.6% sys  0.0% nic 98.3% idle  0.0% io  0.0% irq  0.0% sirq
+Load average: 1.10 1.06 1.01 1/683 20193
+  PID  PPID USER     STAT   VSZ %VSZ CPU %CPU COMMAND
+  549   206 system   S <  2342m 60.8   4  0.0 system_server
+ 1060   206 system   S    2055m 53.4   0  0.0 {migu.controller} com.migu.controller
+  206     1 root     S    2035m 52.8   4  0.0 {main} zygote64
+  902   206 u0_a8    S    1765m 45.8   5  0.0 {ndroid.launcher} com.android.launcher
+  662   206 u0_a17   S    1738m 45.1   4  0.0 {ndroid.systemui} com.android.systemui
+ 1335   206 u0_a29   S    1554m 40.3   5  0.0 {m.android.email} com.android.email
+  893   206 radio    S    1551m 40.3   5  0.0 {m.android.phone} com.android.phone
+ 1360   206 u0_a49   S    1545m 40.1   5  0.0 {droid.messaging} com.android.messaging
+ 1055   206 system   S    1541m 40.0   4  0.0 com.migu.agent
+ 1313   206 u0_a23   S    1541m 40.0   0  0.0 {ndroid.calendar} com.android.calendar
+ 1194   206 u0_a27   S    1538m 39.9   4  0.0 {droid.deskclock} com.android.deskclock
+  948   206 u0_a2    S    1537m 39.9   4  0.0 {d.process.acore} android.process.acore
+  916   206 u0_a44   S    1533m 39.8   5  0.0 {id.printspooler} com.android.printspooler
+ 1260   206 u0_a1    S    1533m 39.8   4  0.0 {viders.calendar} com.android.providers.calendar
+ 1298   206 u0_a11   S    1529m 39.7   4  0.0 {timeinitializer} com.android.onetimeinitializer
+  993   206 u0_a48   S    1529m 39.7   2  0.0 {android.smspush} com.android.smspush
+ 1448   206 u0_a10   S    1528m 39.7   5  0.0 {android.musicfx} com.android.musicfx
+  207     1 root     S    1486m 38.6   5  0.0 {main} zygote
+  869   207 u0_a15   S    1062m 27.6   5  0.0 {method.sogouoem} com.sohu.inputmethod.sogouoem
+ 1147   207 u0_a15   S    1015m 26.3   4  0.0 {ogouoem:classic} com.sohu.inputmethod.sogouoem:classic
+ 2031   207 u0_a15   S    1015m 26.3   4  0.0 {em:push_service} com.sohu.inputmethod.sogouoem:push_service
+  192     1 system   S <   296m  7.7   4  0.0 /system/bin/surfaceflinger
+  200     1 media    S    59344  1.5   5  0.0 /system/bin/mediaserver
+  195     1 root     S    19060  0.4   4  0.0 /system/bin/netd
+  179     1 logd     S N  15232  0.3   4  0.0 /system/bin/logd
+  180     1 root     S    14408  0.3   5  0.0 /system/bin/vold --blkid_context=u:r:blkid:s0 --blkid_untrusted_context=u:r:blkid_untrusted:s0 --fsck_context=u:r:fsck:s0 --fsck_untrusted_context=u:r:fsck_untrusted:s0
+  199     1 drm      S    13840  0.3   4  0.0 /system/bin/drmserver
+  203     1 keystore S    10504  0.2   5  0.0 /system/bin/keystore /data/misc/keystore
+  208     1 system   S     9768  0.2   2  0.0 /system/bin/gatekeeperd /data/misc/gatekeeper
+  198     1 root     S     7096  0.1   2  0.0 /system/bin/rild
+  197     1 root     S     6460  0.1   0  0.0 /system/bin/debuggerd64
+  190     1 root     S     6404  0.1   5  0.0 /system/bin/lmkd
+  191     1 system   S     6004  0.1   5  0.0 /system/bin/servicemanager
+  201     1 root     S     5856  0.1   5  0.0 /system/bin/installd
+  211   189 root     S     5796  0.1   5  0.0 {sh} 
+  209   189 root     S     5796  0.1   4  0.0 {sh} 
+  210   189 root     S     5796  0.1   2  0.0 {sh} 
+  212   189 root     S     5796  0.1   0  0.0 {sh} 
+  638     1 dhcp     S     5748  0.1   1  0.0 /system/bin/dhcpcd -aABDKL -f /system/etc/dhcpcd/dhcpcd.conf -h android-9456254692638a1e eth0
+ 1088  1060 system   S     5656  0.1   5  0.0 logcat -v time *:V | grep ( 1060)
+  189     1 root     S     5276  0.1   0  0.0 /system/bin/console_agent
+  193     1 root     S     5272  0.1   5  0.0 /system/bin/roothide
+ 1095   286 root     S     5184  0.1   1  0.0 daemonsu:1000  
+    1     0 root     S     4264  0.1   1  0.0 /init --second-stage
+  188     1 root     S     4256  0.1   3  0.0 /sbin/healthd
+  286     1 root     S     4152  0.1   4  0.0 daemonsu:master
+  177     1 root     S     3744  0.0   5  0.0 /sbin/ueventd
+  235     1 root     S     3664  0.0   5  0.0 /system/xbin/super_init_sh_guard
+  196     1 root     S     3496  0.0   5  0.0 /system/bin/debuggerd
+  222     1 root     S     3256  0.0   4  0.0 /system/xbin/dropbear -A -j -k -R /data/.ssh/authorized_keys -r /data/.ssh/dropbear_rsa_host_key
+20192   222 root     S     3256  0.0   5  0.0 /system/xbin/dropbear -A -j -k -R /data/.ssh/authorized_keys -r /data/.ssh/dropbear_rsa_host_key
+20193 20192 root     R     3200  0.0   4  0.0 top -bn1
+  237     1 root     S     2864  0.0   2  0.0 daemonsu:mount:master
+
+
+#over_cpu_mem:5 session
+
+#check_nfs: 6 session
+yes
+
+#over_nfs:6 session
+
+--->*10.109.6.54* will start check
+
+#check_df: 100 session
+/system                991.9M   830.1M   161.8M   4096
+
+#over_df:100 session
+
+#check_df: 101 session
+/dev                     1.9G    28.0K     1.9G   4096
+
+#over_df:101 session
+
+#check_df: 102 session
+/dev/graphics/fb0        1.9G    36.0K     1.9G   4096
+
+#over_df:102 session
+
+#check_df: 103 session
+/data                   27.2G     9.1G    18.1G   4096
+
+#over_df:103 session
+
+#check_df: 104 session
+/                        1.9G     2.8M     1.9G   4096
+
+#over_df:104 session
+
+#check_df: 105 session
+/sys/fs/cgroup           1.9G     0.0K     1.9G   4096
+
+#over_df:105 session
+
+#check_df: 106 session
+/mnt                     1.9G     0.0K     1.9G   4096
+
+#over_df:106 session
+
+#check_df: 107 session
+/subin                   1.9G   160.0K     1.9G   4096
+
+#over_df:107 session
+
+#check_df: 108 session
+/storage                 1.9G     0.0K     1.9G   4096
+
+#over_df:108 session
+
+#check_df: 109 session
+/mnt/runtime/default/emulated    27.2G     9.1G    18.1G   4096
+
+#over_df:109 session
+
+#check_df: 110 session
+/storage/emulated       27.2G     9.1G    18.1G   4096
+
+#over_df:110 session
+
+#check_df: 111 session
+/mnt/runtime/read/emulated    27.2G     9.1G    18.1G   4096
+
+#over_df:111 session
+
+#check_df: 112 session
+/mnt/runtime/write/emulated    27.2G     9.1G    18.1G   4096
+
+#over_df:112 session
+
+#check_df: 113 session
+/data/nfs             1426.6G    37.2G  1389.4G   1048576
+
+#over_df:113 session
+
+#check_battery: 2 session
+Current Battery Service state:
+  AC powered: true
+  USB powered: true
+  Wireless powered: false
+  Max charging current: 0
+  status: 3
+  health: 2
+  present: true
+  level: 100
+  scale: 100
+  voltage: 3
+  temperature: 26
+  technology: Li-ion
+
+#over_battery:2 session
+
+#check_cpu: 3 session
+attribute:1416000
+temperatue:33888
+
+#over_cpu:3 session
+
+#check_internet: 4 session
+realm_name:yes
+online:yes
+
+#over_internet:4 session
+
+#check_cpu_mem: 5 session
+Mem: 2397836K used, 1543940K free, 6156K shrd, 83648K buff, 1632980K cached
+CPU:  0.0% usr  1.5% sys  0.0% nic 98.4% idle  0.0% io  0.0% irq  0.0% sirq
+Load average: 1.11 1.03 1.01 2/841 14863
+  PID  PPID USER     STAT   VSZ %VSZ CPU %CPU COMMAND
+14863 14862 root     R     3200  0.0   5  1.5 top -bn1
+  558   210 system   S <  2348m 61.0   4  0.0 system_server
+ 1167   210 system   S    2056m 53.4   4  0.0 {migu.controller} com.migu.controller
+  210     1 root     S    2035m 52.8   5  0.0 {main} zygote64
+  953   210 u0_a8    S    1768m 45.9   1  0.0 {ndroid.launcher} com.android.launcher
+  769   210 u0_a17   S    1738m 45.1   5  0.0 {ndroid.systemui} com.android.systemui
+ 1360   210 u0_a29   S    1554m 40.3   4  0.0 {m.android.email} com.android.email
+ 1602   211 u0_a147  S    1553m 40.3   5  0.0 {ficial:pushcore} com.nd.he.official:pushcore
+  937   210 radio    S    1552m 40.3   5  0.0 {m.android.phone} com.android.phone
+ 1385   210 u0_a49   S    1545m 40.1   5  0.0 {droid.messaging} com.android.messaging
+ 1126   210 u0_a23   S    1542m 40.0   5  0.0 {ndroid.calendar} com.android.calendar
+ 1162   210 system   S    1542m 40.0   0  0.0 com.migu.agent
+ 1094   210 u0_a27   S    1540m 40.0   4  0.0 {droid.deskclock} com.android.deskclock
+ 1023   210 u0_a6    S    1537m 39.9   4  0.0 {d.process.media} android.process.media
+  777   210 u0_a2    S    1536m 39.9   4  0.0 {d.process.acore} android.process.acore
+ 1172   210 u0_a1    S    1534m 39.8   5  0.0 {viders.calendar} com.android.providers.calendar
+  978   210 u0_a44   S    1533m 39.8   4  0.0 {id.printspooler} com.android.printspooler
+ 1725   210 u0_a10   S    1529m 39.7   3  0.0 {android.musicfx} com.android.musicfx
+ 1069   210 u0_a48   S    1529m 39.7   4  0.0 {android.smspush} com.android.smspush
+ 1534   211 u0_a147  S    1516m 39.4   1  0.0 {.nd.he.official} com.nd.he.official
+  211     1 root     S    1486m 38.6   5  0.0 {main} zygote
+  909   211 u0_a15   S    1060m 27.5   4  0.0 {method.sogouoem} com.sohu.inputmethod.sogouoem
+ 1451   211 u0_a207  S    1058m 27.4   5  0.0 {ausage:pushcore} com.sofunny.Sausage:pushcore
+ 1408   211 u0_a207  S    1023m 26.5   2  0.0 {sofunny.Sausage} com.sofunny.Sausage
+ 3078   211 u0_a15   S    1019m 26.4   4  0.0 {em:push_service} com.sohu.inputmethod.sogouoem:push_service
+ 9071   211 u0_a15   S    1018m 26.4   4  0.0 {ogouoem:classic} com.sohu.inputmethod.sogouoem:classic
+  192     1 system   S <   295m  7.6   4  0.0 /system/bin/surfaceflinger
+  200     1 media    S    59080  1.5   4  0.0 /system/bin/mediaserver
+  195     1 root     S    19060  0.4   5  0.0 /system/bin/netd
+  180     1 root     S    15684  0.4   5  0.0 /system/bin/vold --blkid_context=u:r:blkid:s0 --blkid_untrusted_context=u:r:blkid_untrusted:s0 --fsck_context=u:r:fsck:s0 --fsck_untrusted_context=u:r:fsck_untrusted:s0
+  179     1 logd     S N  14976  0.3   1  0.0 /system/bin/logd
+  199     1 drm      S    13840  0.3   5  0.0 /system/bin/drmserver
+  207     1 keystore S    10504  0.2   4  0.0 /system/bin/keystore /data/misc/keystore
+  212     1 system   S     9768  0.2   5  0.0 /system/bin/gatekeeperd /data/misc/gatekeeper
+  198     1 root     S     7096  0.1   1  0.0 /system/bin/rild
+  197     1 root     S     6460  0.1   2  0.0 /system/bin/debuggerd64
+  190     1 root     S     6404  0.1   3  0.0 /system/bin/lmkd
+  191     1 system   S     6004  0.1   0  0.0 /system/bin/servicemanager
+  202     1 root     S     5856  0.1   5  0.0 /system/bin/installd
+  201   189 root     S     5796  0.1   0  0.0 {sh} 
+  206   189 root     S     5796  0.1   5  0.0 {sh} 
+  204   189 root     S     5796  0.1   5  0.0 {sh} 
+  203   189 root     S     5796  0.1   4  0.0 {sh} 
+  645     1 dhcp     S     5748  0.1   4  0.0 /system/bin/dhcpcd -aABDKL -f /system/etc/dhcpcd/dhcpcd.conf -h android-9508a27015f6ddb7 eth0
+ 1265  1167 system   S     5656  0.1   4  0.0 logcat -v time *:V | grep ( 1167)
+  189     1 root     S     5276  0.1   1  0.0 /system/bin/console_agent
+  193     1 root     S     5272  0.1   4  0.0 /system/bin/roothide
+ 1230   291 root     S     5184  0.1   2  0.0 daemonsu:1000  
+    1     0 root     S     4264  0.1   4  0.0 /init --second-stage
+  188     1 root     S     4256  0.1   5  0.0 /sbin/healthd
+  291     1 root     S     4152  0.1   3  0.0 daemonsu:master
+  177     1 root     S     3744  0.0   5  0.0 /sbin/ueventd
+  240     1 root     S     3664  0.0   4  0.0 /system/xbin/super_init_sh_guard
+  196     1 root     S     3496  0.0   5  0.0 /system/bin/debuggerd
+  226     1 root     S     3256  0.0   5  0.0 /system/xbin/dropbear -A -j -k -R /data/.ssh/authorized_keys -r /data/.ssh/dropbear_rsa_host_key
+14862   226 root     S     3256  0.0   4  0.0 /system/xbin/dropbear -A -j -k -R /data/.ssh/authorized_keys -r /data/.ssh/dropbear_rsa_host_key
+  239     1 root     S     2864  0.0   0  0.0 daemonsu:mount:master
+
+
+#over_cpu_mem:5 session
+
+#check_nfs: 6 session
+yes
+
+#over_nfs:6 session
+
+--->*10.109.6.55* will start check
+
+#check_df: 100 session
+/system                991.9M   830.1M   161.8M   4096
+
+#over_df:100 session
+
+#check_df: 101 session
+/dev                     1.9G    28.0K     1.9G   4096
+
+#over_df:101 session
+
+#check_df: 102 session
+/dev/graphics/fb0        1.9G    36.0K     1.9G   4096
+
+#over_df:102 session
+
+#check_df: 103 session
+/data                   27.2G     2.5G    24.7G   4096
+
+#over_df:103 session
+
+#check_df: 104 session
+/                        1.9G     2.8M     1.9G   4096
+
+#over_df:104 session
+
+#check_df: 105 session
+/sys/fs/cgroup           1.9G     0.0K     1.9G   4096
+
+#over_df:105 session
+
+#check_df: 106 session
+/mnt                     1.9G     0.0K     1.9G   4096
+
+#over_df:106 session
+
+#check_df: 107 session
+/subin                   1.9G   160.0K     1.9G   4096
+
+#over_df:107 session
+
+#check_df: 108 session
+/storage                 1.9G     0.0K     1.9G   4096
+
+#over_df:108 session
+
+#check_df: 109 session
+/mnt/runtime/default/emulated    27.2G     2.5G    24.7G   4096
+
+#over_df:109 session
+
+#check_df: 110 session
+/storage/emulated       27.2G     2.5G    24.7G   4096
+
+#over_df:110 session
+
+#check_df: 111 session
+/mnt/runtime/read/emulated    27.2G     2.5G    24.7G   4096
+
+#over_df:111 session
+
+#check_df: 112 session
+/mnt/runtime/write/emulated    27.2G     2.5G    24.7G   4096
+
+#over_df:112 session
+
+#check_df: 113 session
+/data/nfs             1426.6G    37.2G  1389.4G   1048576
+
+#over_df:113 session
+
+#check_battery: 2 session
+Current Battery Service state:
+  AC powered: true
+  USB powered: true
+  Wireless powered: false
+  Max charging current: 0
+  status: 3
+  health: 2
+  present: true
+  level: 100
+  scale: 100
+  voltage: 3
+  temperature: 26
+  technology: Li-ion
+
+#over_battery:2 session
+
+#check_cpu: 3 session
+attribute:1416000
+temperatue:34444
+
+#over_cpu:3 session
+
+#check_internet: 4 session
+realm_name:yes
+online:yes
+
+#over_internet:4 session
+
+#check_cpu_mem: 5 session
+Mem: 1737292K used, 2204484K free, 6156K shrd, 51440K buff, 1086492K cached
+CPU:  0.0% usr  1.6% sys  0.0% nic 98.3% idle  0.0% io  0.0% irq  0.0% sirq
+Load average: 1.25 1.08 1.02 1/743 20460
+  PID  PPID USER     STAT   VSZ %VSZ CPU %CPU COMMAND
+20460 20459 root     R     3200  0.0   5  1.6 top -bn1
+  558   206 system   S <  2343m 60.8   5  0.0 system_server
+ 1056   206 system   S    2056m 53.4   0  0.0 {migu.controller} com.migu.controller
+  206     1 root     S    2035m 52.8   4  0.0 {main} zygote64
+  897   206 u0_a8    S    1766m 45.8   5  0.0 {ndroid.launcher} com.android.launcher
+  676   206 u0_a17   S    1737m 45.1   4  0.0 {ndroid.systemui} com.android.systemui
+ 1419   206 u0_a29   S    1554m 40.3   4  0.0 {m.android.email} com.android.email
+  890   206 radio    S    1553m 40.3   5  0.0 {m.android.phone} com.android.phone
+ 1445   206 u0_a49   S    1546m 40.1   5  0.0 {droid.messaging} com.android.messaging
+ 1396   206 u0_a23   S    1542m 40.0   5  0.0 {ndroid.calendar} com.android.calendar
+ 1051   206 system   S    1541m 40.0   5  0.0 com.migu.agent
+ 1282   206 u0_a27   S    1538m 39.9   4  0.0 {droid.deskclock} com.android.deskclock
+  946   206 u0_a2    S    1537m 39.9   0  0.0 {d.process.acore} android.process.acore
+ 1350   206 u0_a1    S    1534m 39.8   5  0.0 {viders.calendar} com.android.providers.calendar
+  906   206 u0_a44   S    1532m 39.8   5  0.0 {id.printspooler} com.android.printspooler
+ 1003   206 u0_a48   S    1529m 39.7   2  0.0 {android.smspush} com.android.smspush
+ 1574   206 u0_a10   S    1528m 39.7   1  0.0 {android.musicfx} com.android.musicfx
+  207     1 root     S    1487m 38.6   4  0.0 {main} zygote
+19989   207 u0_a144  S    1324m 34.4   5  0.0 {nt.mobileqq:MSF} com.tencent.mobileqq:MSF
+20002   207 u0_a144  S    1299m 33.7   4  0.0 {encent.mobileqq} com.tencent.mobileqq
+  869   207 u0_a15   S    1110m 28.8   5  0.0 {method.sogouoem} com.sohu.inputmethod.sogouoem
+ 3416   207 u0_a15   S    1017m 26.4   5  0.0 {em:push_service} com.sohu.inputmethod.sogouoem:push_service
+ 1130   207 u0_a15   S    1014m 26.3   4  0.0 {ogouoem:classic} com.sohu.inputmethod.sogouoem:classic
+  192     1 system   S <   296m  7.7   4  0.0 /system/bin/surfaceflinger
+  200     1 media    S    56768  1.4   0  0.0 /system/bin/mediaserver
+  195     1 root     S    19316  0.4   4  0.0 /system/bin/netd
+  179     1 logd     S N  14720  0.3   4  0.0 /system/bin/logd
+  180     1 root     S    14408  0.3   4  0.0 /system/bin/vold --blkid_context=u:r:blkid:s0 --blkid_untrusted_context=u:r:blkid_untrusted:s0 --fsck_context=u:r:fsck:s0 --fsck_untrusted_context=u:r:fsck_untrusted:s0
+  199     1 drm      S    13840  0.3   4  0.0 /system/bin/drmserver
+  203     1 keystore S    10504  0.2   4  0.0 /system/bin/keystore /data/misc/keystore
+  211     1 system   S     9768  0.2   0  0.0 /system/bin/gatekeeperd /data/misc/gatekeeper
+  198     1 root     S     7096  0.1   4  0.0 /system/bin/rild
+  197     1 root     S     6460  0.1   2  0.0 /system/bin/debuggerd64
+  190     1 root     S     6404  0.1   5  0.0 /system/bin/lmkd
+  191     1 system   S     6004  0.1   5  0.0 /system/bin/servicemanager
+  201     1 root     S     5856  0.1   4  0.0 /system/bin/installd
+  212   189 root     S     5796  0.1   3  0.0 {sh} 
+  210   189 root     S     5796  0.1   4  0.0 {sh} 
+  208   189 root     S     5796  0.1   2  0.0 {sh} 
+  209   189 root     S     5796  0.1   5  0.0 {sh} 
+  639     1 dhcp     S     5748  0.1   0  0.0 /system/bin/dhcpcd -aABDKL -f /system/etc/dhcpcd/dhcpcd.conf -h android-ca83e7ee332a2443 eth0
+ 1086  1056 system   S     5656  0.1   5  0.0 logcat -v time *:V | grep ( 1056)
+  189     1 root     S     5276  0.1   3  0.0 /system/bin/console_agent
+  193     1 root     S     5272  0.1   2  0.0 /system/bin/roothide
+ 1089   289 root     S     5184  0.1   4  0.0 daemonsu:1000  
+    1     0 root     S     4264  0.1   3  0.0 /init --second-stage
+  188     1 root     S     4256  0.1   1  0.0 /sbin/healthd
+  289     1 root     S     4152  0.1   4  0.0 daemonsu:master
+  177     1 root     S     3744  0.0   5  0.0 /sbin/ueventd
+  236     1 root     S     3664  0.0   1  0.0 /system/xbin/super_init_sh_guard
+  196     1 root     S     3496  0.0   5  0.0 /system/bin/debuggerd
+  220     1 root     S     3256  0.0   5  0.0 /system/xbin/dropbear -A -j -k -R /data/.ssh/authorized_keys -r /data/.ssh/dropbear_rsa_host_key
+20459   220 root     S     3256  0.0   4  0.0 /system/xbin/dropbear -A -j -k -R /data/.ssh/authorized_keys -r /data/.ssh/dropbear_rsa_host_key
+  238     1 root     S     2864  0.0   4  0.0 daemonsu:mount:master
+
+
+#over_cpu_mem:5 session
+
+#check_nfs: 6 session
+yes
+
+#over_nfs:6 session
+
+--->*10.109.6.56* will start check
+
+#check_df: 100 session
+/system                991.9M   830.1M   161.8M   4096
+
+#over_df:100 session
+
+#check_df: 101 session
+/dev                     1.9G    28.0K     1.9G   4096
+
+#over_df:101 session
+
+#check_df: 102 session
+/dev/graphics/fb0        1.9G    36.0K     1.9G   4096
+
+#over_df:102 session
+
+#check_df: 103 session
+/data                   27.2G     2.2G    25.0G   4096
+
+#over_df:103 session
+
+#check_df: 104 session
+/                        1.9G     2.8M     1.9G   4096
+
+#over_df:104 session
+
+#check_df: 105 session
+/sys/fs/cgroup           1.9G     0.0K     1.9G   4096
+
+#over_df:105 session
+
+#check_df: 106 session
+/mnt                     1.9G     0.0K     1.9G   4096
+
+#over_df:106 session
+
+#check_df: 107 session
+/subin                   1.9G   160.0K     1.9G   4096
+
+#over_df:107 session
+
+#check_df: 108 session
+/storage                 1.9G     0.0K     1.9G   4096
+
+#over_df:108 session
+
+#check_df: 109 session
+/mnt/runtime/default/emulated    27.2G     2.2G    25.0G   4096
+
+#over_df:109 session
+
+#check_df: 110 session
+/storage/emulated       27.2G     2.2G    25.0G   4096
+
+#over_df:110 session
+
+#check_df: 111 session
+/mnt/runtime/read/emulated    27.2G     2.2G    25.0G   4096
+
+#over_df:111 session
+
+#check_df: 112 session
+/mnt/runtime/write/emulated    27.2G     2.2G    25.0G   4096
+
+#over_df:112 session
+
+#check_df: 113 session
+/data/nfs             1426.6G    37.2G  1389.4G   1048576
+
+#over_df:113 session
+
+#check_battery: 2 session
+Current Battery Service state:
+  AC powered: true
+  USB powered: true
+  Wireless powered: false
+  Max charging current: 0
+  status: 3
+  health: 2
+  present: true
+  level: 100
+  scale: 100
+  voltage: 3
+  temperature: 26
+  technology: Li-ion
+
+#over_battery:2 session
+
+#check_cpu: 3 session
+attribute:1416000
+temperatue:35000
+
+#over_cpu:3 session
+
+#check_internet: 4 session
+realm_name:yes
+online:yes
+
+#over_internet:4 session
+
+#check_cpu_mem: 5 session
+Mem: 1702064K used, 2239712K free, 6156K shrd, 80768K buff, 1031048K cached
+CPU:  0.0% usr  0.0% sys  0.0% nic  100% idle  0.0% io  0.0% irq  0.0% sirq
+Load average: 1.16 1.09 1.03 1/689 14179
+  PID  PPID USER     STAT   VSZ %VSZ CPU %CPU COMMAND
+  559   206 system   S <  2342m 60.8   5  0.0 system_server
+ 1143   206 system   S    2056m 53.4   5  0.0 {migu.controller} com.migu.controller
+  206     1 root     S    2035m 52.8   2  0.0 {main} zygote64
+  919   206 u0_a8    S    1764m 45.8   3  0.0 {ndroid.launcher} com.android.launcher
+  767   206 u0_a17   S    1737m 45.1   2  0.0 {ndroid.systemui} com.android.systemui
+ 1366   206 u0_a29   S    1554m 40.3   4  0.0 {m.android.email} com.android.email
+  901   206 radio    S    1552m 40.3   4  0.0 {m.android.phone} com.android.phone
+ 1391   206 u0_a49   S    1544m 40.1   4  0.0 {droid.messaging} com.android.messaging
+ 1117   206 u0_a23   S    1543m 40.0   0  0.0 {ndroid.calendar} com.android.calendar
+ 1138   206 system   S    1542m 40.0   5  0.0 com.migu.agent
+ 1077   206 u0_a27   S    1540m 40.0   4  0.0 {droid.deskclock} com.android.deskclock
+  781   206 u0_a2    S    1537m 39.9   4  0.0 {d.process.acore} android.process.acore
+ 1184   206 u0_a1    S    1533m 39.8   5  0.0 {viders.calendar} com.android.providers.calendar
+  943   206 u0_a44   S    1532m 39.8   4  0.0 {id.printspooler} com.android.printspooler
+ 1344   206 u0_a11   S    1529m 39.7   2  0.0 {timeinitializer} com.android.onetimeinitializer
+ 1044   206 u0_a48   S    1528m 39.7   3  0.0 {android.smspush} com.android.smspush
+ 1490   206 u0_a10   S    1528m 39.7   4  0.0 {android.musicfx} com.android.musicfx
+  207     1 root     S    1486m 38.6   4  0.0 {main} zygote
+  881   207 u0_a15   S    1190m 30.9   5  0.0 {method.sogouoem} com.sohu.inputmethod.sogouoem
+ 1979   207 u0_a15   S    1018m 26.4   2  0.0 {em:push_service} com.sohu.inputmethod.sogouoem:push_service
+15618   207 u0_a15   S    1017m 26.4   5  0.0 {ogouoem:classic} com.sohu.inputmethod.sogouoem:classic
+  192     1 system   S <   296m  7.7   4  0.0 /system/bin/surfaceflinger
+  200     1 media    S    58568  1.4   1  0.0 /system/bin/mediaserver
+  195     1 root     S    19572  0.5   4  0.0 /system/bin/netd
+  180     1 root     S    15684  0.4   5  0.0 /system/bin/vold --blkid_context=u:r:blkid:s0 --blkid_untrusted_context=u:r:blkid_untrusted:s0 --fsck_context=u:r:fsck:s0 --fsck_untrusted_context=u:r:fsck_untrusted:s0
+  179     1 logd     S N  14464  0.3   5  0.0 /system/bin/logd
+  199     1 drm      S    13840  0.3   4  0.0 /system/bin/drmserver
+  203     1 keystore S    10504  0.2   4  0.0 /system/bin/keystore /data/misc/keystore
+  208     1 system   S     9768  0.2   5  0.0 /system/bin/gatekeeperd /data/misc/gatekeeper
+  198     1 root     S     7096  0.1   0  0.0 /system/bin/rild
+  197     1 root     S     6460  0.1   4  0.0 /system/bin/debuggerd64
+  190     1 root     S     6404  0.1   4  0.0 /system/bin/lmkd
+  191     1 system   S     6004  0.1   0  0.0 /system/bin/servicemanager
+  201     1 root     S     5856  0.1   5  0.0 /system/bin/installd
+  209   189 root     S     5796  0.1   4  0.0 {sh} 
+  212   189 root     S     5796  0.1   4  0.0 {sh} 
+  211   189 root     S     5796  0.1   3  0.0 {sh} 
+  210   189 root     S     5796  0.1   0  0.0 {sh} 
+  646     1 dhcp     S     5748  0.1   5  0.0 /system/bin/dhcpcd -aABDKL -f /system/etc/dhcpcd/dhcpcd.conf -h android-bba57f2df3b87a4d eth0
+ 1231  1143 system   S     5656  0.1   5  0.0 logcat -v time *:V | grep ( 1143)
+  189     1 root     S     5276  0.1   0  0.0 /system/bin/console_agent
+  193     1 root     S     5272  0.1   2  0.0 /system/bin/roothide
+ 1240   286 root     S     5184  0.1   3  0.0 daemonsu:1000  
+    1     0 root     S     4264  0.1   4  0.0 /init --second-stage
+  188     1 root     S     4256  0.1   0  0.0 /sbin/healthd
+  286     1 root     S     4152  0.1   5  0.0 daemonsu:master
+  177     1 root     S     3744  0.0   2  0.0 /sbin/ueventd
+  235     1 root     S     3664  0.0   4  0.0 /system/xbin/super_init_sh_guard
+  196     1 root     S     3496  0.0   4  0.0 /system/bin/debuggerd
+  222     1 root     S     3256  0.0   4  0.0 /system/xbin/dropbear -A -j -k -R /data/.ssh/authorized_keys -r /data/.ssh/dropbear_rsa_host_key
+14178   222 root     S     3256  0.0   4  0.0 /system/xbin/dropbear -A -j -k -R /data/.ssh/authorized_keys -r /data/.ssh/dropbear_rsa_host_key
+14179 14178 root     R     3200  0.0   5  0.0 top -bn1
+  237     1 root     S     2864  0.0   0  0.0 daemonsu:mount:master
+
+
+#over_cpu_mem:5 session
+
+#check_nfs: 6 session
+yes
+
+#over_nfs:6 session
+
+--->*10.109.6.57* will start check
+
+#check_df: 100 session
+/system                991.9M   830.1M   161.8M   4096
+
+#over_df:100 session
+
+#check_df: 101 session
+/dev                     1.9G    28.0K     1.9G   4096
+
+#over_df:101 session
+
+#check_df: 102 session
+/dev/graphics/fb0        1.9G    36.0K     1.9G   4096
+
+#over_df:102 session
+
+#check_df: 103 session
+/data                   27.2G     5.9G    21.3G   4096
+
+#over_df:103 session
+
+#check_df: 104 session
+/                        1.9G     2.8M     1.9G   4096
+
+#over_df:104 session
+
+#check_df: 105 session
+/sys/fs/cgroup           1.9G     0.0K     1.9G   4096
+
+#over_df:105 session
+
+#check_df: 106 session
+/mnt                     1.9G     0.0K     1.9G   4096
+
+#over_df:106 session
+
+#check_df: 107 session
+/subin                   1.9G   160.0K     1.9G   4096
+
+#over_df:107 session
+
+#check_df: 108 session
+/storage                 1.9G     0.0K     1.9G   4096
+
+#over_df:108 session
+
+#check_df: 109 session
+/mnt/runtime/default/emulated    27.2G     5.9G    21.3G   4096
+
+#over_df:109 session
+
+#check_df: 110 session
+/storage/emulated       27.2G     5.9G    21.3G   4096
+
+#over_df:110 session
+
+#check_df: 111 session
+/mnt/runtime/read/emulated    27.2G     5.9G    21.3G   4096
+
+#over_df:111 session
+
+#check_df: 112 session
+/mnt/runtime/write/emulated    27.2G     5.9G    21.3G   4096
+
+#over_df:112 session
+
+#check_df: 113 session
+/data/nfs             1426.6G    37.2G  1389.4G   1048576
+
+#over_df:113 session
+
+#check_battery: 2 session
+Current Battery Service state:
+  AC powered: true
+  USB powered: true
+  Wireless powered: false
+  Max charging current: 0
+  status: 3
+  health: 2
+  present: true
+  level: 100
+  scale: 100
+  voltage: 3
+  temperature: 26
+  technology: Li-ion
+
+#over_battery:2 session
+
+#check_cpu: 3 session
+attribute:1416000
+temperatue:34444
+
+#over_cpu:3 session
+
+#check_internet: 4 session
+realm_name:yes
+online:yes
+
+#over_internet:4 session
+
+#check_cpu_mem: 5 session
+Mem: 1630656K used, 2311120K free, 6156K shrd, 44332K buff, 1016548K cached
+CPU:  0.0% usr  1.5% sys  0.0% nic 98.4% idle  0.0% io  0.0% irq  0.0% sirq
+Load average: 1.00 1.00 1.00 1/677 20168
+  PID  PPID USER     STAT   VSZ %VSZ CPU %CPU COMMAND
+  559   211 system   S <  2343m 60.8   2  0.0 system_server
+ 1060   211 system   S    2056m 53.4   4  0.0 {migu.controller} com.migu.controller
+  211     1 root     S    2035m 52.8   4  0.0 {main} zygote64
+  885   211 u0_a8    S    1767m 45.9   3  0.0 {ndroid.launcher} com.android.launcher
+  676   211 u0_a17   S    1737m 45.1   4  0.0 {ndroid.systemui} com.android.systemui
+  870   211 radio    S    1552m 40.3   4  0.0 {m.android.phone} com.android.phone
+ 1326   211 u0_a29   S    1552m 40.3   5  0.0 {m.android.email} com.android.email
+ 1349   211 u0_a49   S    1545m 40.1   5  0.0 {droid.messaging} com.android.messaging
+ 1055   211 system   S    1542m 40.0   4  0.0 com.migu.agent
+ 1180   211 u0_a23   S    1542m 40.0   5  0.0 {ndroid.calendar} com.android.calendar
+ 1198   211 u0_a27   S    1538m 39.9   3  0.0 {droid.deskclock} com.android.deskclock
+  930   211 u0_a2    S    1536m 39.9   4  0.0 {d.process.acore} android.process.acore
+ 1203   211 u0_a1    S    1533m 39.8   4  0.0 {viders.calendar} com.android.providers.calendar
+  892   211 u0_a44   S    1532m 39.8   5  0.0 {id.printspooler} com.android.printspooler
+ 1304   211 u0_a11   S    1529m 39.7   0  0.0 {timeinitializer} com.android.onetimeinitializer
+  998   211 u0_a48   S    1528m 39.7   2  0.0 {android.smspush} com.android.smspush
+ 1438   211 u0_a10   S    1528m 39.7   5  0.0 {android.musicfx} com.android.musicfx
+  212     1 root     S    1486m 38.6   4  0.0 {main} zygote
+  857   212 u0_a15   S    1060m 27.5   5  0.0 {method.sogouoem} com.sohu.inputmethod.sogouoem
+ 2507   212 u0_a15   S    1018m 26.4   4  0.0 {em:push_service} com.sohu.inputmethod.sogouoem:push_service
+ 1135   212 u0_a15   S    1014m 26.3   4  0.0 {ogouoem:classic} com.sohu.inputmethod.sogouoem:classic
+  192     1 system   S <   296m  7.6   5  0.0 /system/bin/surfaceflinger
+  201     1 media    S    56504  1.4   4  0.0 /system/bin/mediaserver
+  195     1 root     S    19316  0.4   5  0.0 /system/bin/netd
+  179     1 logd     S N  14464  0.3   2  0.0 /system/bin/logd
+  180     1 root     S    14408  0.3   4  0.0 /system/bin/vold --blkid_context=u:r:blkid:s0 --blkid_untrusted_context=u:r:blkid_untrusted:s0 --fsck_context=u:r:fsck:s0 --fsck_untrusted_context=u:r:fsck_untrusted:s0
+  199     1 drm      S    13840  0.3   5  0.0 /system/bin/drmserver
+  206     1 keystore S    10504  0.2   4  0.0 /system/bin/keystore /data/misc/keystore
+  213     1 system   S     9768  0.2   0  0.0 /system/bin/gatekeeperd /data/misc/gatekeeper
+  198     1 root     S     7096  0.1   3  0.0 /system/bin/rild
+  197     1 root     S     6460  0.1   3  0.0 /system/bin/debuggerd64
+  190     1 root     S     6404  0.1   1  0.0 /system/bin/lmkd
+  191     1 system   S     6004  0.1   4  0.0 /system/bin/servicemanager
+  203     1 root     S     5856  0.1   5  0.0 /system/bin/installd
+  204   189 root     S     5796  0.1   3  0.0 {sh} 
+  200   189 root     S     5796  0.1   5  0.0 {sh} 
+  202   189 root     S     5796  0.1   3  0.0 {sh} 
+  207   189 root     S     5796  0.1   3  0.0 {sh} 
+  639     1 dhcp     S     5748  0.1   0  0.0 /system/bin/dhcpcd -aABDKL -f /system/etc/dhcpcd/dhcpcd.conf -h android-97016317804d6072 eth0
+ 1088  1060 system   S     5656  0.1   5  0.0 logcat -v time *:V | grep ( 1060)
+  189     1 root     S     5276  0.1   5  0.0 /system/bin/console_agent
+  193     1 root     S     5272  0.1   0  0.0 /system/bin/roothide
+ 1094   285 root     S     5184  0.1   1  0.0 daemonsu:1000  
+    1     0 root     S     4264  0.1   2  0.0 /init --second-stage
+  188     1 root     S     4256  0.1   4  0.0 /sbin/healthd
+  285     1 root     S     4152  0.1   3  0.0 daemonsu:master
+  177     1 root     S     3744  0.0   2  0.0 /sbin/ueventd
+  237     1 root     S     3664  0.0   5  0.0 /system/xbin/super_init_sh_guard
+  196     1 root     S     3496  0.0   0  0.0 /system/bin/debuggerd
+  225     1 root     S     3256  0.0   4  0.0 /system/xbin/dropbear -A -j -k -R /data/.ssh/authorized_keys -r /data/.ssh/dropbear_rsa_host_key
+20167   225 root     S     3256  0.0   5  0.0 /system/xbin/dropbear -A -j -k -R /data/.ssh/authorized_keys -r /data/.ssh/dropbear_rsa_host_key
+20168 20167 root     R     3200  0.0   4  0.0 top -bn1
+  238     1 root     S     2864  0.0   1  0.0 daemonsu:mount:master
+
+
+#over_cpu_mem:5 session
+
+#check_nfs: 6 session
+yes
+
+#over_nfs:6 session
+
+--->*10.109.6.58* will start check
+
+#check_df: 100 session
+/system                991.9M   830.1M   161.8M   4096
+
+#over_df:100 session
+
+#check_df: 101 session
+/dev                     1.9G    28.0K     1.9G   4096
+
+#over_df:101 session
+
+#check_df: 102 session
+/dev/graphics/fb0        1.9G    36.0K     1.9G   4096
+
+#over_df:102 session
+
+#check_df: 103 session
+/data                   27.2G     6.6G    20.6G   4096
+
+#over_df:103 session
+
+#check_df: 104 session
+/                        1.9G     2.8M     1.9G   4096
+
+#over_df:104 session
+
+#check_df: 105 session
+/sys/fs/cgroup           1.9G     0.0K     1.9G   4096
+
+#over_df:105 session
+
+#check_df: 106 session
+/mnt                     1.9G     0.0K     1.9G   4096
+
+#over_df:106 session
+
+#check_df: 107 session
+/subin                   1.9G   160.0K     1.9G   4096
+
+#over_df:107 session
+
+#check_df: 108 session
+/storage                 1.9G     0.0K     1.9G   4096
+
+#over_df:108 session
+
+#check_df: 109 session
+/mnt/runtime/default/emulated    27.2G     6.6G    20.6G   4096
+
+#over_df:109 session
+
+#check_df: 110 session
+/storage/emulated       27.2G     6.6G    20.6G   4096
+
+#over_df:110 session
+
+#check_df: 111 session
+/mnt/runtime/read/emulated    27.2G     6.6G    20.6G   4096
+
+#over_df:111 session
+
+#check_df: 112 session
+/mnt/runtime/write/emulated    27.2G     6.6G    20.6G   4096
+
+#over_df:112 session
+
+#check_df: 113 session
+/data/nfs             1426.6G    37.2G  1389.4G   1048576
+
+#over_df:113 session
+
+#check_battery: 2 session
+Current Battery Service state:
+  AC powered: true
+  USB powered: true
+  Wireless powered: false
+  Max charging current: 0
+  status: 3
+  health: 2
+  present: true
+  level: 100
+  scale: 100
+  voltage: 3
+  temperature: 26
+  technology: Li-ion
+
+#over_battery:2 session
+
+#check_cpu: 3 session
+attribute:1416000
+temperatue:33888
+
+#over_cpu:3 session
+
+#check_internet: 4 session
+realm_name:yes
+online:yes
+
+#over_internet:4 session
+
+#check_cpu_mem: 5 session
+Mem: 2962624K used, 979152K free, 5376K shrd, 69832K buff, 2222580K cached
+CPU:  0.0% usr  0.0% sys  0.0% nic  100% idle  0.0% io  0.0% irq  0.0% sirq
+Load average: 1.34 1.12 1.03 2/787 24054
+  PID  PPID USER     STAT   VSZ %VSZ CPU %CPU COMMAND
+  551   207 system   S <  2362m 61.3   4  0.0 system_server
+ 1131   207 system   S    2061m 53.5   0  0.0 {migu.controller} com.migu.controller
+  207     1 root     S    2036m 52.8   4  0.0 {main} zygote64
+  906   207 u0_a8    S    1765m 45.8   2  0.0 {ndroid.launcher} com.android.launcher
+  768   207 u0_a17   S    1744m 45.3   5  0.0 {ndroid.systemui} com.android.systemui
+  896   207 radio    S    1551m 40.3   5  0.0 {m.android.phone} com.android.phone
+ 1126   207 system   S    1542m 40.0   0  0.0 com.migu.agent
+ 1307   207 u0_a27   S    1538m 39.9   4  0.0 {droid.deskclock} com.android.deskclock
+  798   207 u0_a2    S    1538m 39.9   0  0.0 {d.process.acore} android.process.acore
+25174   207 u0_a23   S    1538m 39.9   4  0.0 {ndroid.calendar} com.android.calendar
+ 2982   207 u0_a28   S    1536m 39.9   4  0.0 {oid.documentsui} com.android.documentsui
+ 2097   207 u0_a12   S    1536m 39.9   2  0.0 {ackageinstaller} com.android.packageinstaller
+ 7388   207 u0_a6    S    1533m 39.8   5  0.0 {d.process.media} android.process.media
+ 1047   207 u0_a48   S    1529m 39.7   5  0.0 {android.smspush} com.android.smspush
+ 3012   207 u0_a7    S    1529m 39.7   5  0.0 {externalstorage} com.android.externalstorage
+ 2996   207 u0_a4    S    1529m 39.7   5  0.0 {id.defcontainer} com.android.defcontainer
+  208     1 root     S    1486m 38.6   4  0.0 {main} zygote
+15349   208 u0_a118  S    1323m 34.3   3  0.0 {nt.mobileqq:MSF} com.tencent.mobileqq:MSF
+22733   208 u0_a118  S    1304m 33.8   1  0.0 {encent.mobileqq} com.tencent.mobileqq
+  882   208 u0_a15   S    1211m 31.4   5  0.0 {method.sogouoem} com.sohu.inputmethod.sogouoem
+ 8223   208 u0_a15   S    1017m 26.4   5  0.0 {em:push_service} com.sohu.inputmethod.sogouoem:push_service
+17602   208 u0_a15   S    1016m 26.4   4  0.0 {ogouoem:classic} com.sohu.inputmethod.sogouoem:classic
+  192     1 system   S <   421m 10.9   5  0.0 /system/bin/surfaceflinger
+  201     1 media    S     223m  5.8   1  0.0 /system/bin/mediaserver
+  195     1 root     S    20084  0.5   4  0.0 /system/bin/netd
+  180     1 root     S    15684  0.4   5  0.0 /system/bin/vold --blkid_context=u:r:blkid:s0 --blkid_untrusted_context=u:r:blkid_untrusted:s0 --fsck_context=u:r:fsck:s0 --fsck_untrusted_context=u:r:fsck_untrusted:s0
+  179     1 logd     S N  15488  0.3   3  0.0 /system/bin/logd
+  200     1 drm      S    13840  0.3   4  0.0 /system/bin/drmserver
+  204     1 keystore S    10760  0.2   4  0.0 /system/bin/keystore /data/misc/keystore
+  210     1 system   S     9768  0.2   2  0.0 /system/bin/gatekeeperd /data/misc/gatekeeper
+  199     1 root     S     7096  0.1   1  0.0 /system/bin/rild
+  198     1 root     S     6460  0.1   5  0.0 /system/bin/debuggerd64
+  190     1 root     S     6404  0.1   5  0.0 /system/bin/lmkd
+  191     1 system   S     6004  0.1   4  0.0 /system/bin/servicemanager
+  202     1 root     S     5856  0.1   4  0.0 /system/bin/installd
+  209   189 root     S     5796  0.1   5  0.0 {sh} 
+  213   189 root     S     5796  0.1   5  0.0 {sh} 
+  212   189 root     S     5796  0.1   5  0.0 {sh} 
+  211   189 root     S     5796  0.1   4  0.0 {sh} 
+  646     1 dhcp     S     5748  0.1   4  0.0 /system/bin/dhcpcd -aABDKL -f /system/etc/dhcpcd/dhcpcd.conf -h android-208ff3dc3c14cb53 eth0
+20938  1131 system   S     5656  0.1   5  0.0 logcat -v time *:V | grep ( 1131)
+  189     1 root     S     5276  0.1   0  0.0 /system/bin/console_agent
+  193     1 root     S     5272  0.1   3  0.0 /system/bin/roothide
+ 1189   290 root     S     5184  0.1   4  0.0 daemonsu:1000  
+    1     0 root     S     4264  0.1   4  0.0 /init --second-stage
+  188     1 root     S     4256  0.1   0  0.0 /sbin/healthd
+  290     1 root     S     4152  0.1   4  0.0 daemonsu:master
+  196     1 root     S     4096  0.1   4  0.0 /system/bin/debuggerd
+  177     1 root     S     3744  0.0   2  0.0 /sbin/ueventd
+  241     1 root     S     3664  0.0   0  0.0 /system/xbin/super_init_sh_guard
+  220     1 root     S     3256  0.0   2  0.0 /system/xbin/dropbear -A -j -k -R /data/.ssh/authorized_keys -r /data/.ssh/dropbear_rsa_host_key
+24053   220 root     S     3256  0.0   5  0.0 /system/xbin/dropbear -A -j -k -R /data/.ssh/authorized_keys -r /data/.ssh/dropbear_rsa_host_key
+24054 24053 root     R     3200  0.0   4  0.0 top -bn1
+  240     1 root     S     2864  0.0   4  0.0 daemonsu:mount:master
+
+
+#over_cpu_mem:5 session
+
+#check_nfs: 6 session
+yes
+
+#over_nfs:6 session
+
+--->*10.109.6.59* will start check
+
+#check_df: 100 session
+/system                991.9M   830.1M   161.8M   4096
+
+#over_df:100 session
+
+#check_df: 101 session
+/dev                     1.9G    28.0K     1.9G   4096
+
+#over_df:101 session
+
+#check_df: 102 session
+/dev/graphics/fb0        1.9G    36.0K     1.9G   4096
+
+#over_df:102 session
+
+#check_df: 103 session
+/data                   27.2G     6.1G    21.1G   4096
+
+#over_df:103 session
+
+#check_df: 104 session
+/                        1.9G     2.8M     1.9G   4096
+
+#over_df:104 session
+
+#check_df: 105 session
+/sys/fs/cgroup           1.9G     0.0K     1.9G   4096
+
+#over_df:105 session
+
+#check_df: 106 session
+/mnt                     1.9G     0.0K     1.9G   4096
+
+#over_df:106 session
+
+#check_df: 107 session
+/subin                   1.9G   160.0K     1.9G   4096
+
+#over_df:107 session
+
+#check_df: 108 session
+/storage                 1.9G     0.0K     1.9G   4096
+
+#over_df:108 session
+
+#check_df: 109 session
+/mnt/runtime/default/emulated    27.2G     6.1G    21.1G   4096
+
+#over_df:109 session
+
+#check_df: 110 session
+/storage/emulated       27.2G     6.1G    21.1G   4096
+
+#over_df:110 session
+
+#check_df: 111 session
+/mnt/runtime/read/emulated    27.2G     6.1G    21.1G   4096
+
+#over_df:111 session
+
+#check_df: 112 session
+/mnt/runtime/write/emulated    27.2G     6.1G    21.1G   4096
+
+#over_df:112 session
+
+#check_df: 113 session
+/data/nfs             1426.6G    37.2G  1389.4G   1048576
+
+#over_df:113 session
+
+#check_battery: 2 session
+Current Battery Service state:
+  AC powered: true
+  USB powered: true
+  Wireless powered: false
+  Max charging current: 0
+  status: 3
+  health: 2
+  present: true
+  level: 100
+  scale: 100
+  voltage: 3
+  temperature: 26
+  technology: Li-ion
+
+#over_battery:2 session
+
+#check_cpu: 3 session
+attribute:1416000
+temperatue:33333
+
+#over_cpu:3 session
+
+#check_internet: 4 session
+realm_name:yes
+online:yes
+
+#over_internet:4 session
+
+#check_cpu_mem: 5 session
+Mem: 2149052K used, 1792724K free, 6160K shrd, 105452K buff, 1279920K cached
+CPU:  0.0% usr  0.0% sys  0.0% nic  100% idle  0.0% io  0.0% irq  0.0% sirq
+Load average: 1.03 1.05 1.02 1/757 15386
+  PID  PPID USER     STAT   VSZ %VSZ CPU %CPU COMMAND
+  559   206 system   S <  2350m 61.0   5  0.0 system_server
+ 1141   206 system   S    2059m 53.5   5  0.0 {migu.controller} com.migu.controller
+  206     1 root     S    2035m 52.8   4  0.0 {main} zygote64
+  955   206 u0_a8    S    1772m 46.0   0  0.0 {ndroid.launcher} com.android.launcher
+  766   206 u0_a17   S    1741m 45.2   4  0.0 {ndroid.systemui} com.android.systemui
+  946   206 radio    S    1553m 40.3   4  0.0 {m.android.phone} com.android.phone
+ 1136   206 system   S    1543m 40.0   4  0.0 com.migu.agent
+ 1264   206 u0_a27   S    1541m 40.0   2  0.0 {droid.deskclock} com.android.deskclock
+16620   206 u0_a23   S    1540m 40.0   4  0.0 {ndroid.calendar} com.android.calendar
+  774   206 u0_a2    S    1536m 39.9   4  0.0 {d.process.acore} android.process.acore
+12740   206 u0_a6    S    1534m 39.8   5  0.0 {d.process.media} android.process.media
+16638   206 u0_a1    S    1533m 39.8   5  0.0 {viders.calendar} com.android.providers.calendar
+12710   206 u0_a28   S    1533m 39.8   3  0.0 {oid.documentsui} com.android.documentsui
+12715   206 u0_a4    S    1530m 39.7   3  0.0 {id.defcontainer} com.android.defcontainer
+12758   206 u0_a7    S    1529m 39.7   5  0.0 {externalstorage} com.android.externalstorage
+ 1065   206 u0_a48   S    1529m 39.7   4  0.0 {android.smspush} com.android.smspush
+  207     1 root     S    1486m 38.6   4  0.0 {main} zygote
+ 5900   207 u0_a144  S    1323m 34.3   5  0.0 {nt.mobileqq:MSF} com.tencent.mobileqq:MSF
+13393   207 u0_a144  S    1304m 33.8   3  0.0 {encent.mobileqq} com.tencent.mobileqq
+  926   207 u0_a15   S    1061m 27.5   4  0.0 {method.sogouoem} com.sohu.inputmethod.sogouoem
+ 3818   207 u0_a15   S    1019m 26.4   5  0.0 {em:push_service} com.sohu.inputmethod.sogouoem:push_service
+ 5319   207 u0_a15   S    1018m 26.4   4  0.0 {ogouoem:classic} com.sohu.inputmethod.sogouoem:classic
+  192     1 system   S <   433m 11.2   5  0.0 /system/bin/surfaceflinger
+  200     1 media    S    68700  1.7   4  0.0 /system/bin/mediaserver
+  195     1 root     S    19572  0.5   5  0.0 /system/bin/netd
+  180     1 root     S    15684  0.4   5  0.0 /system/bin/vold --blkid_context=u:r:blkid:s0 --blkid_untrusted_context=u:r:blkid_untrusted:s0 --fsck_context=u:r:fsck:s0 --fsck_untrusted_context=u:r:fsck_untrusted:s0
+  179     1 logd     S N  14976  0.3   0  0.0 /system/bin/logd
+  199     1 drm      S    13840  0.3   4  0.0 /system/bin/drmserver
+  203     1 keystore S    10760  0.2   5  0.0 /system/bin/keystore /data/misc/keystore
+  208     1 system   S     9768  0.2   4  0.0 /system/bin/gatekeeperd /data/misc/gatekeeper
+  198     1 root     S     7096  0.1   5  0.0 /system/bin/rild
+  197     1 root     S     6460  0.1   3  0.0 /system/bin/debuggerd64
+  190     1 root     S     6404  0.1   5  0.0 /system/bin/lmkd
+  191     1 system   S     6004  0.1   3  0.0 /system/bin/servicemanager
+ 1196  1141 system   S     5912  0.1   5  0.0 logcat -v time *:V | grep ( 1141)
+  201     1 root     S     5856  0.1   3  0.0 /system/bin/installd
+  209   189 root     S     5796  0.1   1  0.0 {sh} 
+  210   189 root     S     5796  0.1   5  0.0 {sh} 
+  212   189 root     S     5796  0.1   1  0.0 {sh} 
+  211   189 root     S     5796  0.1   1  0.0 {sh} 
+  646     1 dhcp     S     5748  0.1   4  0.0 /system/bin/dhcpcd -aABDKL -f /system/etc/dhcpcd/dhcpcd.conf -h android-43ce9323c5b9c443 eth0
+  189     1 root     S     5276  0.1   1  0.0 /system/bin/console_agent
+  193     1 root     S     5272  0.1   4  0.0 /system/bin/roothide
+ 1195   294 root     S     5184  0.1   3  0.0 daemonsu:1000  
+    1     0 root     S     4264  0.1   5  0.0 /init --second-stage
+  188     1 root     S     4256  0.1   5  0.0 /sbin/healthd
+  294     1 root     S     4152  0.1   4  0.0 daemonsu:master
+  177     1 root     S     3744  0.0   2  0.0 /sbin/ueventd
+  239     1 root     S     3664  0.0   4  0.0 /system/xbin/super_init_sh_guard
+  196     1 root     S     3496  0.0   5  0.0 /system/bin/debuggerd
+  225     1 root     S     3256  0.0   4  0.0 /system/xbin/dropbear -A -j -k -R /data/.ssh/authorized_keys -r /data/.ssh/dropbear_rsa_host_key
+15385   225 root     S     3256  0.0   5  0.0 /system/xbin/dropbear -A -j -k -R /data/.ssh/authorized_keys -r /data/.ssh/dropbear_rsa_host_key
+15386 15385 root     R     3200  0.0   4  0.0 top -bn1
+  245     1 root     S     2864  0.0   3  0.0 daemonsu:mount:master
+
+
+#over_cpu_mem:5 session
+
+#check_nfs: 6 session
+yes
+
+#over_nfs:6 session
+
+--->*10.109.6.60* will start check
+
+#check_df: 100 session
+/system                991.9M   830.1M   161.8M   4096
+
+#over_df:100 session
+
+#check_df: 101 session
+/dev                     1.9G    28.0K     1.9G   4096
+
+#over_df:101 session
+
+#check_df: 102 session
+/dev/graphics/fb0        1.9G    36.0K     1.9G   4096
+
+#over_df:102 session
+
+#check_df: 103 session
+/data                   27.2G    10.0G    17.2G   4096
+
+#over_df:103 session
+
+#check_df: 104 session
+/                        1.9G     2.8M     1.9G   4096
+
+#over_df:104 session
+
+#check_df: 105 session
+/sys/fs/cgroup           1.9G     0.0K     1.9G   4096
+
+#over_df:105 session
+
+#check_df: 106 session
+/mnt                     1.9G     0.0K     1.9G   4096
+
+#over_df:106 session
+
+#check_df: 107 session
+/subin                   1.9G   160.0K     1.9G   4096
+
+#over_df:107 session
+
+#check_df: 108 session
+/storage                 1.9G     0.0K     1.9G   4096
+
+#over_df:108 session
+
+#check_df: 109 session
+/mnt/runtime/default/emulated    27.2G    10.0G    17.2G   4096
+
+#over_df:109 session
+
+#check_df: 110 session
+/storage/emulated       27.2G    10.0G    17.2G   4096
+
+#over_df:110 session
+
+#check_df: 111 session
+/mnt/runtime/read/emulated    27.2G    10.0G    17.2G   4096
+
+#over_df:111 session
+
+#check_df: 112 session
+/mnt/runtime/write/emulated    27.2G    10.0G    17.2G   4096
+
+#over_df:112 session
+
+#check_df: 113 session
+/data/nfs             1426.6G    37.2G  1389.4G   1048576
+
+#over_df:113 session
+
+#check_battery: 2 session
+Current Battery Service state:
+  AC powered: true
+  USB powered: true
+  Wireless powered: false
+  Max charging current: 0
+  status: 3
+  health: 2
+  present: true
+  level: 100
+  scale: 100
+  voltage: 3
+  temperature: 26
+  technology: Li-ion
+
+#over_battery:2 session
+
+#check_cpu: 3 session
+attribute:1416000
+temperatue:33888
+
+#over_cpu:3 session
+
+#check_internet: 4 session
+realm_name:yes
+online:yes
+
+#over_internet:4 session
+
+#check_cpu_mem: 5 session
+Mem: 2029064K used, 1912712K free, 6156K shrd, 120352K buff, 1215572K cached
+CPU:  1.6% usr  0.0% sys  0.0% nic 98.3% idle  0.0% io  0.0% irq  0.0% sirq
+Load average: 1.11 1.04 1.01 1/761 14661
+  PID  PPID USER     STAT   VSZ %VSZ CPU %CPU COMMAND
+  560   206 system   S <  2346m 60.9   4  0.0 system_server
+ 1158   206 system   S    2057m 53.4   4  0.0 {migu.controller} com.migu.controller
+  206     1 root     S    2035m 52.8   5  0.0 {main} zygote64
+  929   206 u0_a8    S    1766m 45.9   1  0.0 {ndroid.launcher} com.android.launcher
+  768   206 u0_a17   S    1738m 45.1   4  0.0 {ndroid.systemui} com.android.systemui
+ 1486   206 u0_a29   S    1555m 40.4   4  0.0 {m.android.email} com.android.email
+  917   206 radio    S    1553m 40.3   5  0.0 {m.android.phone} com.android.phone
+ 1520   206 u0_a49   S    1545m 40.1   4  0.0 {droid.messaging} com.android.messaging
+ 1153   206 system   S    1543m 40.1   1  0.0 com.migu.agent
+ 1442   206 u0_a23   S    1543m 40.0   1  0.0 {ndroid.calendar} com.android.calendar
+ 1252   206 u0_a27   S    1541m 40.0   3  0.0 {droid.deskclock} com.android.deskclock
+  790   206 u0_a2    S    1536m 39.9   0  0.0 {d.process.acore} android.process.acore
+ 1392   206 u0_a1    S    1533m 39.8   4  0.0 {viders.calendar} com.android.providers.calendar
+  968   206 u0_a44   S    1532m 39.8   4  0.0 {id.printspooler} com.android.printspooler
+ 1616   206 u0_a10   S    1529m 39.7   2  0.0 {android.musicfx} com.android.musicfx
+ 1059   206 u0_a48   S    1527m 39.6   4  0.0 {android.smspush} com.android.smspush
+  207     1 root     S    1486m 38.6   4  0.0 {main} zygote
+11830   207 u0_a191  S    1324m 34.4   0  0.0 {nt.mobileqq:MSF} com.tencent.mobileqq:MSF
+20049   207 u0_a191  S    1302m 33.8   4  0.0 {encent.mobileqq} com.tencent.mobileqq
+  898   207 u0_a15   S    1059m 27.5   4  0.0 {method.sogouoem} com.sohu.inputmethod.sogouoem
+ 4271   207 u0_a15   S    1019m 26.4   5  0.0 {em:push_service} com.sohu.inputmethod.sogouoem:push_service
+10192   207 u0_a15   S    1016m 26.4   4  0.0 {ogouoem:classic} com.sohu.inputmethod.sogouoem:classic
+  191     1 system   S <   296m  7.7   5  0.0 /system/bin/surfaceflinger
+  200     1 media    S    58312  1.4   4  0.0 /system/bin/mediaserver
+  195     1 root     S    19316  0.4   4  0.0 /system/bin/netd
+  180     1 root     S    15684  0.4   5  0.0 /system/bin/vold --blkid_context=u:r:blkid:s0 --blkid_untrusted_context=u:r:blkid_untrusted:s0 --fsck_context=u:r:fsck:s0 --fsck_untrusted_context=u:r:fsck_untrusted:s0
+  179     1 logd     S N  14720  0.3   3  0.0 /system/bin/logd
+  199     1 drm      S    13840  0.3   0  0.0 /system/bin/drmserver
+  203     1 keystore S    10504  0.2   4  0.0 /system/bin/keystore /data/misc/keystore
+  208     1 system   S     9768  0.2   1  0.0 /system/bin/gatekeeperd /data/misc/gatekeeper
+  198     1 root     S     7096  0.1   0  0.0 /system/bin/rild
+  197     1 root     S     6460  0.1   3  0.0 /system/bin/debuggerd64
+  189     1 root     S     6404  0.1   5  0.0 /system/bin/lmkd
+  190     1 system   S     6004  0.1   4  0.0 /system/bin/servicemanager
+  201     1 root     S     5856  0.1   5  0.0 /system/bin/installd
+  211   188 root     S     5796  0.1   3  0.0 {sh} 
+  209   188 root     S     5796  0.1   5  0.0 {sh} 
+  210   188 root     S     5796  0.1   0  0.0 {sh} 
+  212   188 root     S     5796  0.1   5  0.0 {sh} 
+  647     1 dhcp     S     5748  0.1   4  0.0 /system/bin/dhcpcd -aABDKL -f /system/etc/dhcpcd/dhcpcd.conf -h android-6342b5e595d5f2f eth0
+ 1208  1158 system   S     5656  0.1   4  0.0 logcat -v time *:V | grep ( 1158)
+  188     1 root     S     5276  0.1   0  0.0 /system/bin/console_agent
+  193     1 root     S     5272  0.1   5  0.0 /system/bin/roothide
+ 1212   290 root     S     5184  0.1   5  0.0 daemonsu:1000  
+    1     0 root     S     4264  0.1   4  0.0 /init --second-stage
+  187     1 root     S     4256  0.1   4  0.0 /sbin/healthd
+  290     1 root     S     4152  0.1   4  0.0 daemonsu:master
+  177     1 root     S     3744  0.0   2  0.0 /sbin/ueventd
+  236     1 root     S     3664  0.0   5  0.0 /system/xbin/super_init_sh_guard
+  196     1 root     S     3496  0.0   0  0.0 /system/bin/debuggerd
+  227     1 root     S     3256  0.0   5  0.0 /system/xbin/dropbear -A -j -k -R /data/.ssh/authorized_keys -r /data/.ssh/dropbear_rsa_host_key
+14660   227 root     S     3256  0.0   4  0.0 /system/xbin/dropbear -A -j -k -R /data/.ssh/authorized_keys -r /data/.ssh/dropbear_rsa_host_key
+14661 14660 root     R     3200  0.0   5  0.0 top -bn1
+  238     1 root     S     2864  0.0   4  0.0 daemonsu:mount:master
+
+
+#over_cpu_mem:5 session
+
+#check_nfs: 6 session
+yes
+
+#over_nfs:6 session
+
+--->*10.109.6.61* will start check
+
+#check_df: 100 session
+/system                991.9M   830.1M   161.8M   4096
+
+#over_df:100 session
+
+#check_df: 101 session
+/dev                     1.9G    28.0K     1.9G   4096
+
+#over_df:101 session
+
+#check_df: 102 session
+/dev/graphics/fb0        1.9G    36.0K     1.9G   4096
+
+#over_df:102 session
+
+#check_df: 103 session
+/data                   27.2G     8.5G    18.6G   4096
+
+#over_df:103 session
+
+#check_df: 104 session
+/                        1.9G     2.8M     1.9G   4096
+
+#over_df:104 session
+
+#check_df: 105 session
+/sys/fs/cgroup           1.9G     0.0K     1.9G   4096
+
+#over_df:105 session
+
+#check_df: 106 session
+/mnt                     1.9G     0.0K     1.9G   4096
+
+#over_df:106 session
+
+#check_df: 107 session
+/subin                   1.9G   160.0K     1.9G   4096
+
+#over_df:107 session
+
+#check_df: 108 session
+/storage                 1.9G     0.0K     1.9G   4096
+
+#over_df:108 session
+
+#check_df: 109 session
+/mnt/runtime/default/emulated    27.2G     8.5G    18.6G   4096
+
+#over_df:109 session
+
+#check_df: 110 session
+/storage/emulated       27.2G     8.5G    18.6G   4096
+
+#over_df:110 session
+
+#check_df: 111 session
+/mnt/runtime/read/emulated    27.2G     8.5G    18.6G   4096
+
+#over_df:111 session
+
+#check_df: 112 session
+/mnt/runtime/write/emulated    27.2G     8.5G    18.6G   4096
+
+#over_df:112 session
+
+#check_df: 113 session
+/data/nfs             1426.6G    37.2G  1389.4G   1048576
+
+#over_df:113 session
+
+#check_battery: 2 session
+Current Battery Service state:
+  AC powered: true
+  USB powered: true
+  Wireless powered: false
+  Max charging current: 0
+  status: 3
+  health: 2
+  present: true
+  level: 100
+  scale: 100
+  voltage: 3
+  temperature: 26
+  technology: Li-ion
+
+#over_battery:2 session
+
+#check_cpu: 3 session
+attribute:1416000
+temperatue:41666
+
+#over_cpu:3 session
+
+#check_internet: 4 session
+realm_name:yes
+online:yes
+
+#over_internet:4 session
+
+#check_cpu_mem: 5 session
+Mem: 3902016K used, 39760K free, 9408K shrd, 59168K buff, 2817072K cached
+CPU: 24.6% usr 15.3% sys  0.0% nic 60.0% idle  0.0% io  0.0% irq  0.0% sirq
+Load average: 4.19 2.05 1.36 5/1006 21298
+  PID  PPID USER     STAT   VSZ %VSZ CPU %CPU COMMAND
+20371   211 system   S    1829m 47.5   2 13.8 {.appspot.apprtc} org.appspot.apprtc
+20410   212 u0_a203  S <  1724m 44.7   4 13.8 {cent.tmgp.sgame} com.tencent.tmgp.sgame
+ 1050   211 system   S    2060m 53.5   5  3.0 {migu.controller} com.migu.controller
+  192     1 system   S <   462m 12.0   5  3.0 /system/bin/surfaceflinger
+  201     1 media    S     225m  5.8   1  1.5 /system/bin/mediaserver
+  179     1 logd     S N  14720  0.3   2  1.5 /system/bin/logd
+ 1090  1050 system   S     5656  0.1   2  1.5 logcat -v time *:V | grep ( 1050)
+21298 21296 root     R     3200  0.0   3  1.5 top -bn1
+  559   211 system   S <  2347m 60.9   0  0.0 system_server
+  211     1 root     S    2035m 52.8   0  0.0 {main} zygote64
+  900   211 u0_a8    S    1740m 45.2   4  0.0 {ndroid.launcher} com.android.launcher
+  677   211 u0_a17   S    1739m 45.1   5  0.0 {ndroid.systemui} com.android.systemui
+ 1438   211 u0_a29   S    1554m 40.3   1  0.0 {m.android.email} com.android.email
+  891   211 radio    S    1552m 40.3   3  0.0 {m.android.phone} com.android.phone
+ 1463   211 u0_a49   S    1545m 40.1   4  0.0 {droid.messaging} com.android.messaging
+ 1045   211 system   S    1543m 40.1   4  0.0 com.migu.agent
+ 1287   211 u0_a23   S    1540m 40.0   2  0.0 {ndroid.calendar} com.android.calendar
+ 1313   211 u0_a27   S    1539m 40.0   5  0.0 {droid.deskclock} com.android.deskclock
+  938   211 u0_a2    S    1535m 39.9   4  0.0 {d.process.acore} android.process.acore
+20566   211 u0_a12   S    1534m 39.8   1  0.0 {ackageinstaller} com.android.packageinstaller
+ 1318   211 u0_a1    S    1533m 39.8   5  0.0 {viders.calendar} com.android.providers.calendar
+ 1577   211 u0_a10   S    1529m 39.7   1  0.0 {android.musicfx} com.android.musicfx
+  988   211 u0_a48   S    1528m 39.6   4  0.0 {android.smspush} com.android.smspush
+  212     1 root     S    1487m 38.6   1  0.0 {main} zygote
+19872   212 u0_a202  S    1325m 34.4   5  0.0 {nt.mobileqq:MSF} com.tencent.mobileqq:MSF
+19886   212 u0_a202  S    1301m 33.8   2  0.0 {encent.mobileqq} com.tencent.mobileqq
+  864   212 u0_a15   S    1060m 27.5   5  0.0 {method.sogouoem} com.sohu.inputmethod.sogouoem
+20654   212 u0_a203  S    1032m 26.8   5  0.0 {e:xg_service_v4} com.tencent.tmgp.sgame:xg_service_v4
+ 1796   212 u0_a15   S    1018m 26.4   4  0.0 {em:push_service} com.sohu.inputmethod.sogouoem:push_service
+ 1135   212 u0_a15   S    1015m 26.3   4  0.0 {ogouoem:classic} com.sohu.inputmethod.sogouoem:classic
+  195     1 root     S    19828  0.5   3  0.0 /system/bin/netd
+  180     1 root     S    14408  0.3   5  0.0 /system/bin/vold --blkid_context=u:r:blkid:s0 --blkid_untrusted_context=u:r:blkid_untrusted:s0 --fsck_context=u:r:fsck:s0 --fsck_untrusted_context=u:r:fsck_untrusted:s0
+  200     1 drm      S    13840  0.3   5  0.0 /system/bin/drmserver
+  207     1 keystore S    10504  0.2   5  0.0 /system/bin/keystore /data/misc/keystore
+  213     1 system   S     9768  0.2   1  0.0 /system/bin/gatekeeperd /data/misc/gatekeeper
+  198     1 root     S     7096  0.1   4  0.0 /system/bin/rild
+  197     1 root     S     6460  0.1   4  0.0 /system/bin/debuggerd64
+  190     1 root     S     6404  0.1   2  0.0 /system/bin/lmkd
+  191     1 system   S     6004  0.1   5  0.0 /system/bin/servicemanager
+  203     1 root     S     5856  0.1   5  0.0 /system/bin/installd
+  208   189 root     S     5796  0.1   4  0.0 {sh} 
+  202   189 root     S     5796  0.1   3  0.0 {sh} 
+  204   189 root     S     5796  0.1   4  0.0 {sh} 
+  206   189 root     S     5796  0.1   1  0.0 {sh} 
+  639     1 dhcp     S     5748  0.1   5  0.0 /system/bin/dhcpcd -aABDKL -f /system/etc/dhcpcd/dhcpcd.conf -h android-5288b053889843f0 eth0
+  189     1 root     S     5276  0.1   3  0.0 /system/bin/console_agent
+  193     1 root     S     5272  0.1   0  0.0 /system/bin/roothide
+ 1093   289 root     S     5184  0.1   5  0.0 daemonsu:1000  
+    1     0 root     S     4264  0.1   5  0.0 /init --second-stage
+  188     1 root     S     4256  0.1   1  0.0 /sbin/healthd
+  289     1 root     S     4152  0.1   1  0.0 daemonsu:master
+  177     1 root     S     3744  0.0   1  0.0 /sbin/ueventd
+  237     1 root     S     3664  0.0   4  0.0 /system/xbin/super_init_sh_guard
+  196     1 root     S     3496  0.0   4  0.0 /system/bin/debuggerd
+  227     1 root     S     3256  0.0   4  0.0 /system/xbin/dropbear -A -j -k -R /data/.ssh/authorized_keys -r /data/.ssh/dropbear_rsa_host_key
+21296   227 root     S     3256  0.0   4  0.0 /system/xbin/dropbear -A -j -k -R /data/.ssh/authorized_keys -r /data/.ssh/dropbear_rsa_host_key
+  239     1 root     S     2864  0.0   2  0.0 daemonsu:mount:master
+
+
+#over_cpu_mem:5 session
+
+#check_nfs: 6 session
+yes
+
+#over_nfs:6 session
+
+--->*10.109.6.62* will start check
+
+#check_df: 100 session
+/system                991.9M   830.1M   161.8M   4096
+
+#over_df:100 session
+
+#check_df: 101 session
+/dev                     1.9G    28.0K     1.9G   4096
+
+#over_df:101 session
+
+#check_df: 102 session
+/dev/graphics/fb0        1.9G    36.0K     1.9G   4096
+
+#over_df:102 session
+
+#check_df: 103 session
+/data                   27.2G     5.3G    21.9G   4096
+
+#over_df:103 session
+
+#check_df: 104 session
+/                        1.9G     2.8M     1.9G   4096
+
+#over_df:104 session
+
+#check_df: 105 session
+/sys/fs/cgroup           1.9G     0.0K     1.9G   4096
+
+#over_df:105 session
+
+#check_df: 106 session
+/mnt                     1.9G     0.0K     1.9G   4096
+
+#over_df:106 session
+
+#check_df: 107 session
+/subin                   1.9G   160.0K     1.9G   4096
+
+#over_df:107 session
+
+#check_df: 108 session
+/storage                 1.9G     0.0K     1.9G   4096
+
+#over_df:108 session
+
+#check_df: 109 session
+/mnt/runtime/default/emulated    27.2G     5.3G    21.9G   4096
+
+#over_df:109 session
+
+#check_df: 110 session
+/storage/emulated       27.2G     5.3G    21.9G   4096
+
+#over_df:110 session
+
+#check_df: 111 session
+/mnt/runtime/read/emulated    27.2G     5.3G    21.9G   4096
+
+#over_df:111 session
+
+#check_df: 112 session
+/mnt/runtime/write/emulated    27.2G     5.3G    21.9G   4096
+
+#over_df:112 session
+
+#check_df: 113 session
+/data/nfs             1426.6G    37.2G  1389.4G   1048576
+
+#over_df:113 session
+
+#check_battery: 2 session
+Current Battery Service state:
+  AC powered: true
+  USB powered: true
+  Wireless powered: false
+  Max charging current: 0
+  status: 3
+  health: 2
+  present: true
+  level: 100
+  scale: 100
+  voltage: 3
+  temperature: 26
+  technology: Li-ion
+
+#over_battery:2 session
+
+#check_cpu: 3 session
+attribute:1416000
+temperatue:35625
+
+#over_cpu:3 session
+
+#check_internet: 4 session
+realm_name:yes
+online:yes
+
+#over_internet:4 session
+
+#check_cpu_mem: 5 session
+Mem: 1699776K used, 2242000K free, 6156K shrd, 84536K buff, 1018920K cached
+CPU:  0.0% usr  1.6% sys  0.0% nic 98.3% idle  0.0% io  0.0% irq  0.0% sirq
+Load average: 1.10 1.07 1.01 1/683 14195
+  PID  PPID USER     STAT   VSZ %VSZ CPU %CPU COMMAND
+  559   210 system   S <  2343m 60.8   5  0.0 system_server
+ 1161   210 system   S    2058m 53.4   2  0.0 {migu.controller} com.migu.controller
+  210     1 root     S    2035m 52.8   5  0.0 {main} zygote64
+  899   210 u0_a8    S    1766m 45.8   3  0.0 {ndroid.launcher} com.android.launcher
+  767   210 u0_a17   S    1737m 45.1   5  0.0 {ndroid.systemui} com.android.systemui
+ 1355   210 u0_a29   S    1554m 40.3   4  0.0 {m.android.email} com.android.email
+  885   210 radio    S    1551m 40.3   4  0.0 {m.android.phone} com.android.phone
+ 1382   210 u0_a49   S    1545m 40.1   5  0.0 {droid.messaging} com.android.messaging
+ 1126   210 u0_a23   S    1543m 40.0   4  0.0 {ndroid.calendar} com.android.calendar
+ 1155   210 system   S    1542m 40.0   2  0.0 com.migu.agent
+ 1083   210 u0_a27   S    1538m 39.9   5  0.0 {droid.deskclock} com.android.deskclock
+  775   210 u0_a2    S    1535m 39.9   0  0.0 {d.process.acore} android.process.acore
+  913   210 u0_a44   S    1532m 39.8   5  0.0 {id.printspooler} com.android.printspooler
+ 1201   210 u0_a1    S    1531m 39.7   4  0.0 {viders.calendar} com.android.providers.calendar
+ 1336   210 u0_a11   S    1529m 39.7   4  0.0 {timeinitializer} com.android.onetimeinitializer
+ 1076   210 u0_a48   S    1528m 39.7   5  0.0 {android.smspush} com.android.smspush
+ 1488   210 u0_a10   S    1528m 39.7   5  0.0 {android.musicfx} com.android.musicfx
+  211     1 root     S    1486m 38.6   4  0.0 {main} zygote
+  874   211 u0_a15   S    1061m 27.5   4  0.0 {method.sogouoem} com.sohu.inputmethod.sogouoem
+ 1546   211 u0_a15   S    1019m 26.4   0  0.0 {em:push_service} com.sohu.inputmethod.sogouoem:push_service
+16812   211 u0_a15   S    1017m 26.4   5  0.0 {ogouoem:classic} com.sohu.inputmethod.sogouoem:classic
+  192     1 system   S <   296m  7.7   4  0.0 /system/bin/surfaceflinger
+  201     1 media    S    58056  1.4   5  0.0 /system/bin/mediaserver
+  195     1 root     S    19060  0.4   4  0.0 /system/bin/netd
+  180     1 root     S    15684  0.4   4  0.0 /system/bin/vold --blkid_context=u:r:blkid:s0 --blkid_untrusted_context=u:r:blkid_untrusted:s0 --fsck_context=u:r:fsck:s0 --fsck_untrusted_context=u:r:fsck_untrusted:s0
+  179     1 logd     S N  14720  0.3   5  0.0 /system/bin/logd
+  199     1 drm      S    13840  0.3   4  0.0 /system/bin/drmserver
+  207     1 keystore S    10504  0.2   4  0.0 /system/bin/keystore /data/misc/keystore
+  212     1 system   S     9768  0.2   4  0.0 /system/bin/gatekeeperd /data/misc/gatekeeper
+  198     1 root     S     7096  0.1   5  0.0 /system/bin/rild
+  197     1 root     S     6460  0.1   4  0.0 /system/bin/debuggerd64
+  190     1 root     S     6404  0.1   5  0.0 /system/bin/lmkd
+  191     1 system   S     6004  0.1   4  0.0 /system/bin/servicemanager
+  204     1 root     S     5856  0.1   5  0.0 /system/bin/installd
+  203   189 root     S     5796  0.1   1  0.0 {sh} 
+  206   189 root     S     5796  0.1   0  0.0 {sh} 
+  202   189 root     S     5796  0.1   4  0.0 {sh} 
+  200   189 root     S     5796  0.1   4  0.0 {sh} 
+  644     1 dhcp     S     5748  0.1   4  0.0 /system/bin/dhcpcd -aABDKL -f /system/etc/dhcpcd/dhcpcd.conf -h android-3b5fd48a98f953aa eth0
+ 1239  1161 system   S     5656  0.1   5  0.0 logcat -v time *:V | grep ( 1161)
+  189     1 root     S     5276  0.1   4  0.0 /system/bin/console_agent
+  193     1 root     S     5272  0.1   4  0.0 /system/bin/roothide
+ 1243   292 root     S     5184  0.1   0  0.0 daemonsu:1000  
+    1     0 root     S     4264  0.1   5  0.0 /init --second-stage
+  188     1 root     S     4256  0.1   4  0.0 /sbin/healthd
+  292     1 root     S     4152  0.1   5  0.0 daemonsu:master
+  177     1 root     S     3744  0.0   4  0.0 /sbin/ueventd
+  239     1 root     S     3664  0.0   4  0.0 /system/xbin/super_init_sh_guard
+  196     1 root     S     3496  0.0   1  0.0 /system/bin/debuggerd
+  222     1 root     S     3256  0.0   4  0.0 /system/xbin/dropbear -A -j -k -R /data/.ssh/authorized_keys -r /data/.ssh/dropbear_rsa_host_key
+14192   222 root     S     3256  0.0   5  0.0 /system/xbin/dropbear -A -j -k -R /data/.ssh/authorized_keys -r /data/.ssh/dropbear_rsa_host_key
+14195 14192 root     R     3200  0.0   4  0.0 top -bn1
+  241     1 root     S     2864  0.0   4  0.0 daemonsu:mount:master
+
+
+#over_cpu_mem:5 session
+
+#check_nfs: 6 session
+yes
+
+#over_nfs:6 session
+

@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+
+    <!-- 1主营 2海外 3试玩老平台 4PAAS -->
+    <int name="ro.business.env" value="3"/> <!-- Warning:Paas 目前一定要选择4 -->
+    <string name="ro.access.apps">com.android.browser;com.android.systemui;com.redfinger.appstore;com.redfinger.monitor;com.android.launcher2</string>
+
+    <!-- 通用测试 2019年10月17日10:37:43 -->
+    <int name="ro.safemode.disable" value="1" />  <!-- 禁止设备进入安全模式 -->
+    <boolean name="ro.app.auto.grant.permission" value="true" />  <!-- 运行时权限授权 -->
+    <string name="ro.product.default_ime">com.sohu.inputmethod.sogouoem/.SogouIME</string>  <!-- 默认输入法 -->
+    <string name="ro.keep.alive.service.list">com.migu.agent/.service.ManageService;com.migu.controller/.main.ControllerService</string>
+    <string name="sys.filter.needless.process">com.migu.agent;com.migu.controller;com.migu.webrtc.screencapture;org.appspot.apprtc</string>
+    <boolean name="ro.app.hide_crash_dialog" value="true" />  <!-- 崩溃确认框隐藏 -->
+
+    <int name="sys.free.needless.process" value="20" />		<!-- kill优先级低进程 -->
+    <boolean name="sys.auxiliary.protection" value="true" />	<!-- 辅助自动保护 -->
+    <string name="ro.root.hide.packages">com.com2us.smon.normal.freefull.google.kr.android.common</string> <!-- hide root for app -->
+
+    <!-- 主营（包括云控）和海外 -->
+    <string name="ro.product.homepage">https://www.gc.com.cn/nav/nav.html</string>  <!-- 默认主页目前主营换作QQ浏览器失效） -->
+    <string name="ro.browser.default.engine">baidu</string>    <!-- 浏览器默认搜索引擎（目前主营换作QQ浏览器失效） -->
+    <boolean name="ro.statusbar.show.cloudphone" value="false" /> <!-- 是否显示云手机标识 -->
+    <string name="ro.redfinger.phone_tag"></string> <!-- 左上角云手机内容 -->
+    <boolean name="ro.app.auth.enable" value="false" />  <!-- 安装认证 -->
+    <string name="ro.app.auth.server">http://audit.vm.gc.com.cn:8811/audit/app/checkNewAppWhite.html</string> <!-- Warning运维需要注意新老接口 -->
+    <boolean name="ro.app.unblock_list.enable" value="false"/>  <!-- 应用白名单开关 -->
+    <string name="ro.app.unblock_list.data">com.android.launcher2,com.redfinger.appstore</string> <!-- 白名单内容填写包名'，'号分开 -->
+    <boolean name="ro.app.block_list.enable" value="false" /> <!-- 应用黑名单 -->
+    <string name="ro.app.block_list.server">http://audit.vm.gc.com.cn:8811/audit/app/blocklist.html</string> <!-- 填写包名'，'号分开 -->
+
+    <string name="ro.app.monitor.url"></string> <!-- 数据收集(启动退出) -->
+    <string name="ro.app.install.state.url"></string> <!-- 数据收集（安装卸载） -->
+    <string name="ro.app.exception.url"></string>  <!-- 数据收集（崩溃） -->
+
+    <string name="ro.app.no-sign-verify.list"></string> <!-- 逗号隔开 商务要求:不同签名的相同应用允许安装(没使用) -->
+
+    <!-- 应用市场 -->
+    <string name="ro.game.data.server">http://game.vm.gc.com.cn:8805/game</string>
+    <string name="ro.gather.data.server">http://gathers.gc.com.cn/fingergather</string> <!-- 生产无 -->
+    <string name="ro.hotfix.data.server">http://play.gc.com.cn/hotfixpatch</string> <!-- 生产无 -->
+    <boolean name="ro.cloud.market" value="false" />
+    <!-- 新桌面 -->
+    <string name="ro.launcher.data.hiddenAppPkgs">com.android.browser</string>
+    <string name="ro.launcher.data.server">http://deskapp.vm.gc.com.cn:8808/recommendserver</string>
+    <string name="ro.launcher.data.preinstallpkgs">com.tencent.mtt.intl</string>
+    <boolean name="ro.game.monitor.enable" value="true"/>
+    <!-- 网警需求 -->
+    <string name="ro.business.monitor.server">http://183.2.234.46:8080</string>
+
+    <!-- 试玩 -->
+    <boolean name="ro.statusbar.hide" value="true" />  <!-- 是否隐藏状态栏 -->
+    <boolean name="ro.statusbar.dropdown.enable" value="false" /> <!-- 是否允许下拉面板 -->
+    <boolean name="ro.service.play.stop.allow" value="true" /> <!-- 断开播放（没使用） -->
+    <boolean name="ro.allow.start3th.app" value="true" /> <!-- 允许拉起第三方应用 -->
+    <boolean name="ro.push.package.enable" value="false" /> <!-- 5分钟定时上报 -->
+    <string name="ro.push.package.url"></string> <!-- 服务域名+服务名 -->
+    <string name="ro.start.other.allow.apps"></string> <!-- 允许拉起和被拉起的应用 （逗号隔开） -->
+    <string name="ro.not-allowed.launch.apps">com.android.calendar;com.android.deskclock;com.android.contacts;com.android.dialer;com.android.settings;com.android.messaging;com.android.browser;com.android.camera2;com.android.gallery3d;com.android.music</string> <!-- 不能被调起的应用 游音填的浏览器com.android.browser -->
+    <string name="ro.default.launcher">com.ishunwan.vm.launcher</string> <!-- 默认桌面程序 -->
+    <string name="ro.demo.install.safemode">1</string> <!-- 试玩限制安装卸载开关 -->
+    <string name="ro.demo.install.tags">redfinger</string> <!-- 试玩安装标识 -->
+    <string name="ro.demo.unistall.userid">1000</string>    <!-- 试玩卸载UserID -->
+    <string name="ro.disable.uninstall.apps"></string> <!-- 不能被卸载的应用(逗号隔开) -->
+    <string name="ro.app.record.server"></string> <!-- 应用安装、卸载成功上报Url -->
+
+    <!--  试玩-网络存储-游音 -->
+    <string name="ro.not-verify.package">0</string> <!-- 是否跳过非AndroidManifest.xml 的校验过程 -->
+    <boolean name="ro.default.notice.enable" value="false" /> <!-- 是否屏蔽notification -->
+</map>

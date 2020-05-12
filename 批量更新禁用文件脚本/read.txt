@@ -1,0 +1,21 @@
+批量更新禁用配置文件脚本
+
+#避免文件格式损坏 文件编码为utf-8
+business-conf.xml
+
+#必须为物理ip
+ip_p.txt
+
+#注意CERT_PATH=~/id_rsa
+#business-conf.xml此文件路径 APK_ANDROID_PATH=/data/lxc_volumns/system/etc
+updates_business-conf.sh
+
+#可能会修改的路径 此脚本路径 FILE_PATH=/nfs_apk/baidu-test/system_apk
+./batch_updates_conf.sh
+
+updates
+2019年10月31日14:56:01
+
+business-conf.xml
+1、后台常驻进程 新增 org.appspot.apprtc
+2、禁止启动系统应用 com.android.calendar
