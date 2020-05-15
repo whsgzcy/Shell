@@ -45,7 +45,7 @@ if [ $? -ne 1 ]
 then
    # echo has existed
    # exit 1
-  (ssh $HOSTCHECK $IP "export BOOTCLASSPATH=$BOOTCLASSPATH;pm install -r -d -g -i redfinger $APK_REMOTE_PATH/$FILE_NAME;echo =$IP">> mounted_install.out)&
+  (ssh $HOSTCHECK $IP "export BOOTCLASSPATH=$BOOTCLASSPATH;pm install -r -d -g -i redfinger $APK_REMOTE_PATH/$FILE_NAME; echo -n $IP; echo -n $FILE_NAME">> mounted_install.out)&
 else
     echo no path
     echo "IP:$IP no path." >> mounted_install_failed.out

@@ -24,10 +24,19 @@ rm -rf ip_shuf.txt
 
 shuf ip.txt  -o ip_shuf.txt
 
+i=0
 for IP in `cat ip_shuf.txt`
 do
+	((i++))
+	if(( i== 100))
+	then 
+		((i=0))
+		sleep 10
+        fi
+
         echo  "bash ${FILE_PATH} app_install.sh ${IP} ${FILE_PATH} ${FILE_NAME} ${PACKAGE_NAME}"
         echo `bash app_install.sh ${IP} ${FILE_PATH} ${FILE_NAME} ${PACKAGE_NAME}`
-
-        sleep 2
 done;
+
+
+exit 0
